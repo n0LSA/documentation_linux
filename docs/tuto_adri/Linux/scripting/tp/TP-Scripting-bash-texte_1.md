@@ -81,13 +81,13 @@ grâce a la commande `grep -c` on peut compter le nombre de ligne avec la corres
 
 #### Création d'un tableau associatif
 
- > `local -A` permet de déclarer un tableau associatif : [Tableaux](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Tableaux.md)
+ > `local -A` permet de déclarer un tableau associatif : [Tableaux](../../../../langages/bash/bash-docu/Tableaux.md)
 
 - boucler a l'aide dune boucle `while` sur chaque ligne d'un fichier texte
-	- [IFS](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/IFS.md)
-	-  [[02_RESSOURCES/Linux/bash/commandes/read|read]] et [while read -r - 1](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/while read -r - 1.md) et [while read -r - 2](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/while read -r - 2.md)
-	- [redirections](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/systeme/redirections.md)
-	- [structure_boucles](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/structure_boucles.md)
+	- [IFS](../../../../langages/bash/bash-docu/IFS.md)
+	-  [[02_RESSOURCES/Linux/bash/commandes/read|read]] et [while read -r - 1](../../../../langages/bash/bash-docu/while read -r - 1.md) et [while read -r - 2](../../../../langages/bash/bash-docu/while read -r - 2.md)
+	- [redirections](../../../../commandes-de-base/systeme/redirections.md)
+	- [structure_boucles](../../../../langages/bash/bash-docu/structure_boucles.md)
 
 ```bash
 while IFS= read -r ligne; do
@@ -102,7 +102,7 @@ done < file.txt
 
 >**Le but de redéfinir** `IFS=`  et d'utiliser `read -r` est de conserver la structure du fichier par exemple des **block de code** qui on une certaine indentation.
 
-- Test sur chaines de caractères : [Conditions](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Conditions.md) et [Conditions-composite](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Conditions-composite.md) et [Structures-Conditionnelles](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Structures-Conditionnelles.md)
+- Test sur chaines de caractères : [Conditions](../../../../langages/bash/bash-docu/Conditions.md) et [Conditions-composite](../../../../langages/bash/bash-docu/Conditions-composite.md) et [Structures-Conditionnelles](../../../../langages/bash/bash-docu/Structures-Conditionnelles.md)
 - `^Section:\ (.*)`
 	- `^` : **ancre** le début de ligne, la correspondance doit commencer au tout **début de la ligne**.
 	- `\ ` : échappement pour un espace.
@@ -111,7 +111,7 @@ done < file.txt
 		- `.` : correspond a **n'importe qu'elle caractères** sauf à un caractère de nouvelle ligne.
 		- `*` : Correspond a zéro ou plusieurs **caractères** qui le **précède** (_dans l'expression_).
 - Dans une expression régulière **`( ... )`** définit un **groupe de capture**, ce groupe permet de spécifier qu'elle **partie la chaîne correspondante** nous voulons extraire et y accéder dans notre script.
-  >**[BASH_REMATCH](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/BASH_REMATCH.md)** permet d’accéder aux **groupe de captures** c'est une variable spécial de type tableau donc nous devrons passer par l'[Expansion-de-Paramètre](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Expansion-de-Paramètre.md) pour y accéder.
+  >**[BASH_REMATCH](../../../../langages/bash/bash-docu/BASH_REMATCH.md)** permet d’accéder aux **groupe de captures** c'est une variable spécial de type tableau donc nous devrons passer par l'[Expansion-de-Paramètre](../../../../langages/bash/bash-docu/Expansion-de-Paramètre.md) pour y accéder.
 - Dans un **test** sur chaîne des caractères nous pouvons faire un **test de comparaison** en utilisant les **expressions régulière** grâce a l'opérateur **`=~`** et **`[[ ... ]]`** .
  > **L'expression régulière s'écrit sans utiliser les quotes**.
 
@@ -121,7 +121,7 @@ done < file.txt
 	- `-z ${tableau[$key]}`
 - **si l'élément contient déjà une valeur** on peut **rajouter** une valeur  : 
 	- `tableau[$key]="${tableau[$key]}, nouvelle valeur`
-- **Il faut utiliser l'[Expansion-de-Paramètre](../../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/bash/bash-docu/Expansion-de-Paramètre.md)** pour accéder a l'élément d'un tableaux avec son indice : `${tableau[$indice]}`
+- **Il faut utiliser l'[Expansion-de-Paramètre](../../../../langages/bash/bash-docu/Expansion-de-Paramètre.md)** pour accéder a l'élément d'un tableaux avec son indice : `${tableau[$indice]}`
 - **pour affecter des valeurs** il ne faut pas d’espaces entre les 2 opérande du signe `=`
 - **on accède au clé d'un tableau associatif** en utilisant le préfixe `!` sur le tableau: `${!tableau[@]}` et on peut accéder a sa valeur avec : `${tableau[$i]}`
 

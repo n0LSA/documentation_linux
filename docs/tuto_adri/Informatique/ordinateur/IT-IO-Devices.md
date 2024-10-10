@@ -26,7 +26,7 @@ source:
 
 Les périphériques d'entrée et de sortie sont les éléments qui permettent l'interaction entre l'utilisateur et le système informatique. Il constituent les points physique ou logique par lesquels les données et les commandes sont transmises a l'ordinateur, et par lesquels les résultats du traitement sont restitués à l'utilisateur.
 
-Ces dispositifs jouent un rôle fondamental dans le cycle du traitement de l'information, qui repose sur le modèle [](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/tuto_adri/Informatique/ordinateur/IT-Process.md). Dans ce modèle les **périphériques d'entrée** servent à introduire des données but dans le système. Ces données sont ensuite traitée par les composant internes de l'ordinateur comme le processeur, la mémoire. Puis les **périphérique de sortie** présentant les informations traitées sous une forme exploitable par l'utilisateur, qu'il s'agisse d'un affiche visuel, d'un son ou toute autre forme de restitution.
+Ces dispositifs jouent un rôle fondamental dans le cycle du traitement de l'information, qui repose sur le modèle [](./IT-Process.md). Dans ce modèle les **périphériques d'entrée** servent à introduire des données but dans le système. Ces données sont ensuite traitée par les composant internes de l'ordinateur comme le processeur, la mémoire. Puis les **périphérique de sortie** présentant les informations traitées sous une forme exploitable par l'utilisateur, qu'il s'agisse d'un affiche visuel, d'un son ou toute autre forme de restitution.
 
 Pourquoi utiliser des périphériques : 
 
@@ -55,7 +55,7 @@ Les périphériques d'entrée et de sortie peuvent être classé en trois catég
 
 ### Périphérique d'entrée
 
-Les périphériques d'entrée sont des dispositifs que l'utilisateur utilise pour introduire des données ou des commandes dans le système informatique. il sont le premier point de contacte dans le modèle [](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/tuto_adri/Informatique/ordinateur/IT-Process.md)
+Les périphériques d'entrée sont des dispositifs que l'utilisateur utilise pour introduire des données ou des commandes dans le système informatique. il sont le premier point de contacte dans le modèle [](./IT-Process.md)
 
 #### Exemples courants :
 

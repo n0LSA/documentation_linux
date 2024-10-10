@@ -10,8 +10,8 @@ status:
 type de note:
   - projet
 référence:
-  - "[emulateur-terminal](../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/shell-terminal/emulateur-terminal.md)"
-  - "[prompt](../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/shell-terminal/prompt.md)"
+  - "[emulateur-terminal](../../informatique/shell-terminal/emulateur-terminal.md)"
+  - "[prompt](../../informatique/shell-terminal/prompt.md)"
 auteur: aGrellard
 ---
 

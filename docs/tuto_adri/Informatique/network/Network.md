@@ -10,5 +10,5 @@ Un réseaux est ensemble d'équipement connectés entre eux pour permettre la co
 
 >Un **processus** est un programme en cours d'exécution sur un nœud. Quand on navigue sur internet avec un navigateur, c'est est un  processus qui communique avec des serveurs distant (d'autre processus sur d'autre nœud).
 
-Pour pouvoir communiquer entre eux les système utilise des [](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/network/Network-Protocol.md) : il s'agit d'un ***ensemble de règles***, de ***conventions*** et de ***formats*** qui détermine comment les données sont échangées sur un réseaux informatique.
+Pour pouvoir communiquer entre eux les système utilise des [](../../../informatique/network/Network-Protocol.md) : il s'agit d'un ***ensemble de règles***, de ***conventions*** et de ***formats*** qui détermine comment les données sont échangées sur un réseaux informatique.
 

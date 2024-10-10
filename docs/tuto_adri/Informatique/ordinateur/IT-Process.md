@@ -17,8 +17,8 @@ source: []
 
 ## Introduction
 
-- Description détaillée du **processus informatique**, un modèle fondamentale en trois étapes : [](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/ordinateur/it-process/IT-Process-Model.md).
-- Description de l'architecture en [](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/ordinateur/it-process/IT-Process-Layers.md) qui permet la communication les logiciels (application), le système d'exploitation (OS) et le matériel (hardware).
+- Description détaillée du **processus informatique**, un modèle fondamentale en trois étapes : [](../../../informatique/ordinateur/it-process/IT-Process-Model.md).
+- Description de l'architecture en [](../../../informatique/ordinateur/it-process/IT-Process-Layers.md) qui permet la communication les logiciels (application), le système d'exploitation (OS) et le matériel (hardware).
 
 
 

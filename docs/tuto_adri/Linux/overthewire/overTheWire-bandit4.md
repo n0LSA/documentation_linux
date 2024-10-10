@@ -76,7 +76,7 @@ N�.��4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw5K���p�    X
 - `-iname` spécifie le nom de l'élément à rechercher, insensible à la casse :
   - `"*motif*"` correspond à zéro ou plusieurs caractères avant et après le motif.
     - Par exemple, `-iname "*log*"` peut correspondre à : `"logfile"`, `"mylog.txt"`, `"catalog"`, `"dialog"`, etc.
-- `-exec` ([find-exec_sh](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/utilitaires_divers/find-exec_sh.md)) est une option de **[[02_RESSOURCES/Linux/programme/find]]** qui permet d'exécuter une commande spécifiée pour chaque fichier trouvé :
+- `-exec` ([find-exec_sh](../../../commandes-de-base/utilitaires_divers/find-exec_sh.md)) est une option de **[[02_RESSOURCES/Linux/programme/find]]** qui permet d'exécuter une commande spécifiée pour chaque fichier trouvé :
   - `cat` est la commande à exécuter sur le fichier.
   - `{}` est remplacé par le chemin du fichier trouvé par **find**.
   - `+` indique que **cat** sera exécuté une seule fois pour tous les fichiers trouvés, regroupant les chemins des fichiers dans une seule commande.

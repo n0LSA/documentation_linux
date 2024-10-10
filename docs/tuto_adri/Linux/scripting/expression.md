@@ -13,7 +13,7 @@ status:
 type de note:
   - projet
 référence:
-  - "[regex](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/langages/awk/regex.md)"
+  - "[regex](../../../langages/awk/regex.md)"
 auteur: aGrellard
 source:
   - https://www.arthurperret.fr/cours/expressions-regulieres.html
@@ -29,7 +29,7 @@ Les moteurs d'expressions régulières interprètent ces motifs et les utilisent
 
 En résumé, les expressions régulières sont des outils flexibles pour trouver des motifs dans des textes, basés sur une syntaxe de caractères spéciaux, et peuvent être utilisées aussi bien avec des interfaces graphiques qu'en ligne de commande.
 
-Il existe **plusieurs [interpreteurs](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/expressions-reguliere/interpreteurs.md)** capable d'utiliser les expression régulière, ceux-ci utilisent leur propre *type d'expression* (souvent basé sur **PCRE**, **ERE**, ...)  
+Il existe **plusieurs [interpreteurs](../../../informatique/expressions-reguliere/interpreteurs.md)** capable d'utiliser les expression régulière, ceux-ci utilisent leur propre *type d'expression* (souvent basé sur **PCRE**, **ERE**, ...)  
 
 Plusieurs types d'expression existe (ERE, PCRE, ..) 
 
@@ -41,7 +41,7 @@ Chaque **caractère** et une *expression régulière.* `ad` est une correspondan
 
 ## Memo
 
-- **[grep](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/visualisation_fichiers/grep.md)**
+- **[grep](../../../commandes-de-base/visualisation_fichiers/grep.md)**
 	- `-o` affiche uniquement les correspondances trouvées, plutôt que les lignes entières contenant les correspondances.
 	- `-P` utilise les expression régulière Perl (Perl-Compatible Regular Expressions, **PCRE**)
 	- `-E` utilise les expression régulière (Extend Regular Expression, **ERE**)

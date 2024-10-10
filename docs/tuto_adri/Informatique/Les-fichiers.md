@@ -10,9 +10,9 @@ status:
 type de note:
   - projet
 référence:
-  - "[Chemins-absolus](../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/general/Chemins-absolus.md)"
-  - "[Chemin-absolue-cannonique](../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/general/Chemin-absolue-cannonique.md)"
-  - "[Inodes](../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/informatique/general/Inodes.md)"
+  - "[Chemins-absolus](../../informatique/general/Chemins-absolus.md)"
+  - "[Chemin-absolue-cannonique](../../informatique/general/Chemin-absolue-cannonique.md)"
+  - "[Inodes](../../informatique/general/Inodes.md)"
   - "[[metadata]]"
 auteur: aGrellard
 source:

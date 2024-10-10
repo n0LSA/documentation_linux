@@ -49,8 +49,8 @@ Multipass est un outil de Canonical, l'entreprise derrière Ubuntu, qui facilite
 3. **Simplicité et rapidité** : Multipass simplifie le processus de création et de gestion des VMs avec des commandes simples et des images prêtes à l'emploi d'Ubuntu et Debian.
 
 
-- **Les avantages de Multipass** : [multipass-avantages](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/multipass/multipass-avantages.md)
-- **Comparaison** : [multipass-vs-virtualbox](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/multipass/multipass-vs-virtualbox.md)
+- **Les avantages de Multipass** : [multipass-avantages](../../../commandes-de-base/multipass/multipass-avantages.md)
+- **Comparaison** : [multipass-vs-virtualbox](../../../commandes-de-base/multipass/multipass-vs-virtualbox.md)
 - 
 ## Installation sous debian/ubuntu
 
@@ -94,7 +94,7 @@ La meilleure méthode dépend de vos besoins spécifiques :
 
 > En résumé, pour un utilisateur qui souhaite une solution facile et maintenable avec peu de gestion, Snap est recommandé. Pour un utilisateur avancé qui cherche à optimiser les performances et l'intégration, l'utilisation du paquet `.deb` serait plus adaptée.
 
-**Installation de Multipass via snap** : [multipass-installation-snap](../../../../../../../_I0_DOCU_EXT/mk-docs/documentations_linux/docs/commandes-de-base/multipass/multipass-installation-snap.md)
+**Installation de Multipass via snap** : [multipass-installation-snap](../../../commandes-de-base/multipass/multipass-installation-snap.md)
 
 ## Fonctionnement de Multipass
 
