@@ -1,0 +1,11 @@
+## Les ranges des ports réseaux
+
+Chaque port est identifé par un numéro unique compris entre 0 et 65535. Ces ports sont classifiés en différentes catégories en fonction de leur usage et de leur attribution par l'IANA (Internet Assigned Number authority).
+
+### Classification des ports réseaux
+
+| Range de ports | Catégorie                                         | Description                                                                                                                                                                                                 | Exemples                                                                                                                        |
+| -------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 0 - 1023       | Ports ben connus (Well-Known Ports)               | Ports réservés aux services et protocoles les plus couramment utilisés. Ils sont assignés par l'IANA et nécessitent souvent des privilèges administratif pour être utilisés.                                | HTTP(80) ,HTTPS(443), FTP(21), SSH(22), SMTP(25), DNS(53), TELNET(23)                                                           |
+| 1024-49151     | Ports Enregistrés (Registered Ports)              | Ports utilisés par des applicatiobs ou services spécifiques non universels. Ils sont également enregistrés apres de l'IANA mais sont moins strictement contrôlés que les ports bien connus.                 | MySQL(3306),Miscrosoft SQL Server(1443), PostgreSQL(5432), RDP(3389), SIP(5060)                                                 |
+| 49152 - 65535  | Ports Dynamiques ou privé (Dynamic/Private Ports) | Ports utilisés principalement pour les communications temporaires ou privées. Ils sont souvent attribué de manière dynamique par les systèmes d'exploitation lors de l'établissment de connexions sortantes | Ports assignés automatiquement pour les sessions client, par exemple lors de la navigation web ou des connexions de messagerie. |

@@ -20,7 +20,7 @@ site_author: "aGrellard"
 # Dossier source, chemin relatif au fichier mkdocs.yml
 docs_dir: docs
 
-# use_directory_urls: false
+use_directory_urls: false
 
 hide:
   - toc

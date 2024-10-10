@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"a6828f4a63785038","type":"file","file":"_DATA/TAI/SOLUCCIO FICHE TAI v3.pdf","x":-420,"y":-460,"width":400,"height":400},
+		{"id":"e112dcce784d7a61","type":"file","file":"_DATA/TAI/CCI DROME_Plaquette Contrat pro et apprentissage 2023.pdf","x":-420,"y":-920,"width":400,"height":400},
+		{"id":"58b78ba9d1bf9536","type":"file","file":"_DATA/TAI/RNCP37681 - TP - Technicien assistance en informatique 1.pdf","x":-20,"y":80,"width":400,"height":400},
+		{"id":"a1cce7e6114e66bf","type":"file","file":"_DATA/TAI/Mention_complementaire_cybersecurite_2024.pdf","x":40,"y":-1380,"width":400,"height":400},
+		{"id":"b40a2ca9c0a95277","type":"file","file":"_DATA/TAI/TP_TAI_2024-2025.pdf","x":40,"y":-920,"width":400,"height":400},
+		{"id":"50f46ad498a32af3","type":"file","file":"3.Dossier de candidature TAI 2024-2025.docx","x":40,"y":-460,"width":400,"height":400},
+		{"id":"efe52d1bad7c0b84","type":"file","file":"_DATA/TAI/Référentiel_Activités_Compétences_Evaluation_TP_TAI 1.pdf","subpath":"#page=1","x":-20,"y":560,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"cff0f9ebc676765e","fromNode":"a1cce7e6114e66bf","fromSide":"bottom","toNode":"b40a2ca9c0a95277","toSide":"top"},
+		{"id":"b9963d74bb9d959a","fromNode":"b40a2ca9c0a95277","fromSide":"bottom","toNode":"50f46ad498a32af3","toSide":"top"},
+		{"id":"7bf37f5a87c14360","fromNode":"e112dcce784d7a61","fromSide":"bottom","toNode":"a6828f4a63785038","toSide":"top"},
+		{"id":"d24ce6c6d228e57b","fromNode":"a6828f4a63785038","fromSide":"bottom","toNode":"58b78ba9d1bf9536","toSide":"top"},
+		{"id":"3a816e76233e7538","fromNode":"50f46ad498a32af3","fromSide":"bottom","toNode":"58b78ba9d1bf9536","toSide":"top"},
+		{"id":"7975ee5ef6eb3297","fromNode":"58b78ba9d1bf9536","fromSide":"bottom","toNode":"efe52d1bad7c0b84","toSide":"top"}
+	]
+}
