@@ -12,28 +12,28 @@
         <meta name="author" content="aGrellard">
       
       
-        <link rel="canonical" href="https://n0LSA.github.io/documentation_linux/langages/bash/bash-docu/del/tableaux.html">
+        <link rel="canonical" href="https://n0LSA.github.io/documentation_linux/commandes-de-base/gestion_systeme/locale.html">
       
       
-        <link rel="prev" href="structure_conditionelle.html">
+        <link rel="prev" href="gparted.html">
       
       
-        <link rel="next" href="variables_special.html">
+        <link rel="next" href="nmon.html">
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.33">
     
     
       
-        <title>Tableaux - DocuLinux</title>
+        <title>Documentation sur les Locales sous Linux (Debian) - DocuLinux</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +46,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structures-de-type-tableaux-en-bash" class="md-skip">
+        <a href="#documentation-sur-les-locales-sous-linux-debian" class="md-skip">
           Aller au contenu
         </a>
       
@@ -88,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../../../../index.html" title="DocuLinux" class="md-header__button md-logo" aria-label="DocuLinux" data-md-component="logo">
+    <a href="../../index.html" title="DocuLinux" class="md-header__button md-logo" aria-label="DocuLinux" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tableaux
+              Documentation sur les Locales sous Linux (Debian)
             
           </span>
         </div>
@@ -215,7 +215,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../index.html" class="md-tabs__link">
+      <a href="../../index.html" class="md-tabs__link">
         
   
     
@@ -232,7 +232,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../tags.html" class="md-tabs__link">
+      <a href="../../tags.html" class="md-tabs__link">
         
   
     
@@ -251,7 +251,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../blog/index.html" class="md-tabs__link">
+        <a href="../../blog/index.html" class="md-tabs__link">
           
   
   Blog
@@ -265,11 +265,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../../commandes-de-base/index.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../index.html" class="md-tabs__link">
           
   
   Commandes de base
@@ -287,7 +289,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../docker/container_nodejs-npm-tldr.html" class="md-tabs__link">
+        <a href="../../docker/container_nodejs-npm-tldr.html" class="md-tabs__link">
           
   
   Docker
@@ -311,7 +313,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../emplois/tai/RNCP37681-EXAM.html" class="md-tabs__link">
+        <a href="../../emplois/tai/RNCP37681-EXAM.html" class="md-tabs__link">
           
   
   Emplois
@@ -332,7 +334,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../hardware/GIGABYTE%20GC-WBAX1200.html" class="md-tabs__link">
+        <a href="../../hardware/GIGABYTE%20GC-WBAX1200.html" class="md-tabs__link">
           
   
   Hardware
@@ -356,7 +358,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../informatique/expressions-reguliere/interpreteurs.html" class="md-tabs__link">
+        <a href="../../informatique/expressions-reguliere/interpreteurs.html" class="md-tabs__link">
           
   
   Informatique
@@ -373,21 +375,17 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../awk/awk%20est%20un%20langage%20de%20programmation%20de.html" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../langages/awk/awk%20est%20un%20langage%20de%20programmation%20de.html" class="md-tabs__link">
           
   
   Langages
@@ -408,7 +406,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../python/python-env.html" class="md-tabs__link">
+        <a href="../../python/python-env.html" class="md-tabs__link">
           
   
   Python
@@ -426,7 +424,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../sysadmin/resolution-nom-reseau.html" class="md-tabs__link">
+        <a href="../../sysadmin/resolution-nom-reseau.html" class="md-tabs__link">
           
   
   Sysadmin
@@ -444,7 +442,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../tuto_adri/Multipass.html" class="md-tabs__link">
+        <a href="../../tuto_adri/Multipass.html" class="md-tabs__link">
           
   
   Tuto adri
@@ -477,7 +475,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../../index.html" title="DocuLinux" class="md-nav__button md-logo" aria-label="DocuLinux" data-md-component="logo">
+    <a href="../../index.html" title="DocuLinux" class="md-nav__button md-logo" aria-label="DocuLinux" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
@@ -507,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -527,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tags.html" class="md-nav__link">
+      <a href="../../tags.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -585,7 +583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/index.html" class="md-nav__link">
+      <a href="../../blog/index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -644,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/ACLs.html" class="md-nav__link">
+      <a href="../../blog/20240401/ACLs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -665,7 +663,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/Bit-setgid.html" class="md-nav__link">
+      <a href="../../blog/20240401/Bit-setgid.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -686,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/Setting-locale-failed.html" class="md-nav__link">
+      <a href="../../blog/20240401/Setting-locale-failed.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -707,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/bash.html" class="md-nav__link">
+      <a href="../../blog/20240401/bash.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -728,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/docker_compose.html" class="md-nav__link">
+      <a href="../../blog/20240401/docker_compose.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -749,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/joindre_server_local.html" class="md-nav__link">
+      <a href="../../blog/20240401/joindre_server_local.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -770,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/liens_web.html" class="md-nav__link">
+      <a href="../../blog/20240401/liens_web.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -791,7 +789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/systeme-de-fichiers.html" class="md-nav__link">
+      <a href="../../blog/20240401/systeme-de-fichiers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -812,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/tmux.html" class="md-nav__link">
+      <a href="../../blog/20240401/tmux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -833,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/ufw_rules.html" class="md-nav__link">
+      <a href="../../blog/20240401/ufw_rules.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -854,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/useradd_adduser.html" class="md-nav__link">
+      <a href="../../blog/20240401/useradd_adduser.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -875,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240401/useradd_smbpasswd.html" class="md-nav__link">
+      <a href="../../blog/20240401/useradd_smbpasswd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -942,7 +940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/code-server.html" class="md-nav__link">
+      <a href="../../blog/20240403/code-server.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -963,7 +961,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/docker_ufw.html" class="md-nav__link">
+      <a href="../../blog/20240403/docker_ufw.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -984,7 +982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/homepage.html" class="md-nav__link">
+      <a href="../../blog/20240403/homepage.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1005,7 +1003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/iptables_mac_tcp80.html" class="md-nav__link">
+      <a href="../../blog/20240403/iptables_mac_tcp80.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1026,7 +1024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/jellyfin.html" class="md-nav__link">
+      <a href="../../blog/20240403/jellyfin.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1047,7 +1045,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/journalctl_icmp.html" class="md-nav__link">
+      <a href="../../blog/20240403/journalctl_icmp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1068,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/qbittorrent.html" class="md-nav__link">
+      <a href="../../blog/20240403/qbittorrent.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1089,7 +1087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240403/scp.html" class="md-nav__link">
+      <a href="../../blog/20240403/scp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1156,7 +1154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240404/ecoute-requette-ping.html" class="md-nav__link">
+      <a href="../../blog/20240404/ecoute-requette-ping.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1177,7 +1175,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240404/ecoute_port-tcp.html" class="md-nav__link">
+      <a href="../../blog/20240404/ecoute_port-tcp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1198,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240404/rsync.html" class="md-nav__link">
+      <a href="../../blog/20240404/rsync.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1265,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240405/ufw_pb_port22-mac.html" class="md-nav__link">
+      <a href="../../blog/20240405/ufw_pb_port22-mac.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1332,7 +1330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240410/firewal_rpi.html" class="md-nav__link">
+      <a href="../../blog/20240410/firewal_rpi.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1353,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240410/icmp_journalctl.html" class="md-nav__link">
+      <a href="../../blog/20240410/icmp_journalctl.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1420,7 +1418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240411/samba_partage.html" class="md-nav__link">
+      <a href="../../blog/20240411/samba_partage.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1487,7 +1485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240413/rpi-rules-loaded.html" class="md-nav__link">
+      <a href="../../blog/20240413/rpi-rules-loaded.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1508,7 +1506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240413/rpi-ufw-rulles.html" class="md-nav__link">
+      <a href="../../blog/20240413/rpi-ufw-rulles.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1575,7 +1573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240606/wsl.html" class="md-nav__link">
+      <a href="../../blog/20240606/wsl.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1596,7 +1594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240606/wsl_installLinuxDistrib.html" class="md-nav__link">
+      <a href="../../blog/20240606/wsl_installLinuxDistrib.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1617,7 +1615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240606/wsl_installLinuxDistrib_gpt.html" class="md-nav__link">
+      <a href="../../blog/20240606/wsl_installLinuxDistrib_gpt.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1638,7 +1636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240606/wsl_installLinuxDistrib_it-connect.html" class="md-nav__link">
+      <a href="../../blog/20240606/wsl_installLinuxDistrib_it-connect.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1705,7 +1703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/Valgrind.html" class="md-nav__link">
+      <a href="../../blog/20240618/Valgrind.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1726,7 +1724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/aligement.html" class="md-nav__link">
+      <a href="../../blog/20240618/aligement.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1747,7 +1745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/memory.html" class="md-nav__link">
+      <a href="../../blog/20240618/memory.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1806,7 +1804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/hardware/microcontroller.html" class="md-nav__link">
+      <a href="../../blog/20240618/hardware/microcontroller.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1827,7 +1825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/hardware/pc.html" class="md-nav__link">
+      <a href="../../blog/20240618/hardware/pc.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1848,7 +1846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/hardware/tableaux.html" class="md-nav__link">
+      <a href="../../blog/20240618/hardware/tableaux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1915,7 +1913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/proc/execution-programmes.html" class="md-nav__link">
+      <a href="../../blog/20240618/proc/execution-programmes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1936,7 +1934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/proc/instructions.html" class="md-nav__link">
+      <a href="../../blog/20240618/proc/instructions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1957,7 +1955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/proc/memoire.html" class="md-nav__link">
+      <a href="../../blog/20240618/proc/memoire.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1978,7 +1976,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/proc/registre-cache.html" class="md-nav__link">
+      <a href="../../blog/20240618/proc/registre-cache.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2045,7 +2043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240618/rev/binaire.html" class="md-nav__link">
+      <a href="../../blog/20240618/rev/binaire.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2120,7 +2118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240621/find-exec-stat.html" class="md-nav__link">
+      <a href="../../blog/20240621/find-exec-stat.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2141,7 +2139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240621/learn-python.html" class="md-nav__link">
+      <a href="../../blog/20240621/learn-python.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2162,7 +2160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240621/python-koans.html" class="md-nav__link">
+      <a href="../../blog/20240621/python-koans.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2183,7 +2181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240621/today.html" class="md-nav__link">
+      <a href="../../blog/20240621/today.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2250,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../blog/20240627/gpt.html" class="md-nav__link">
+      <a href="../../blog/20240627/gpt.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2283,23 +2281,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -2310,7 +2313,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Commandes de base
@@ -2324,7 +2327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/index.html" class="md-nav__link">
+      <a href="../index.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2345,7 +2348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/dnsutils.html" class="md-nav__link">
+      <a href="../dnsutils.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2366,7 +2369,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/dpkg-reconfiure.html" class="md-nav__link">
+      <a href="../dpkg-reconfiure.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2425,7 +2428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/combiner/combined_all.html" class="md-nav__link">
+      <a href="../combiner/combined_all.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2492,7 +2495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/droits_permissions/chmod.html" class="md-nav__link">
+      <a href="../droits_permissions/chmod.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2520,7 +2523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/droits_permissions/chown.html" class="md-nav__link">
+      <a href="../droits_permissions/chown.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2541,7 +2544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/droits_permissions/groups.html" class="md-nav__link">
+      <a href="../droits_permissions/groups.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2562,7 +2565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/droits_permissions/mask.html" class="md-nav__link">
+      <a href="../droits_permissions/mask.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2629,7 +2632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/editeurs_gestionnaires_fichiers/markdown_in_terminal.html" class="md-nav__link">
+      <a href="../editeurs_gestionnaires_fichiers/markdown_in_terminal.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2650,7 +2653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/editeurs_gestionnaires_fichiers/pandoc.html" class="md-nav__link">
+      <a href="../editeurs_gestionnaires_fichiers/pandoc.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2671,7 +2674,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/editeurs_gestionnaires_fichiers/vscode_commandLine.html" class="md-nav__link">
+      <a href="../editeurs_gestionnaires_fichiers/vscode_commandLine.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2692,7 +2695,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/editeurs_gestionnaires_fichiers/xclip.html" class="md-nav__link">
+      <a href="../editeurs_gestionnaires_fichiers/xclip.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2759,7 +2762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/cut.html" class="md-nav__link">
+      <a href="../gestion_fichiers/cut.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2780,7 +2783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/df.html" class="md-nav__link">
+      <a href="../gestion_fichiers/df.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2801,7 +2804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/dirname.html" class="md-nav__link">
+      <a href="../gestion_fichiers/dirname.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2829,7 +2832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/dmesh.html" class="md-nav__link">
+      <a href="../gestion_fichiers/dmesh.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2850,7 +2853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/du.html" class="md-nav__link">
+      <a href="../gestion_fichiers/du.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2871,7 +2874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/realpath.html" class="md-nav__link">
+      <a href="../gestion_fichiers/realpath.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2899,7 +2902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/rm.html" class="md-nav__link">
+      <a href="../gestion_fichiers/rm.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2920,7 +2923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/sort.html" class="md-nav__link">
+      <a href="../gestion_fichiers/sort.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2941,7 +2944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/tar.html" class="md-nav__link">
+      <a href="../gestion_fichiers/tar.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2962,7 +2965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/tr.html" class="md-nav__link">
+      <a href="../gestion_fichiers/tr.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2983,7 +2986,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_fichiers/tree.html" class="md-nav__link">
+      <a href="../gestion_fichiers/tree.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3050,7 +3053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_processus/journalctl.html" class="md-nav__link">
+      <a href="../gestion_processus/journalctl.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3071,7 +3074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_processus/ps_aux.html" class="md-nav__link">
+      <a href="../gestion_processus/ps_aux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3097,6 +3100,8 @@
                 
   
   
+    
+  
   
   
     
@@ -3106,11 +3111,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" checked>
         
           
           <label class="md-nav__link" for="__nav_4_9" id="__nav_4_9_label" tabindex="0">
@@ -3124,7 +3129,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4_9">
             <span class="md-nav__icon md-icon"></span>
             Gestion systeme
@@ -3138,7 +3143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/Fail2ban.html" class="md-nav__link">
+      <a href="Fail2ban.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3166,7 +3171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/cron.html" class="md-nav__link">
+      <a href="cron.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3187,7 +3192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/crontab.html" class="md-nav__link">
+      <a href="crontab.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3215,7 +3220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/dejadup.html" class="md-nav__link">
+      <a href="dejadup.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3236,7 +3241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/fail2ban.html" class="md-nav__link">
+      <a href="fail2ban.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3257,7 +3262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/gparted.html" class="md-nav__link">
+      <a href="gparted.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3275,10 +3280,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/locale.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Documentation sur les Locales sous Linux (Debian)
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="locale.html" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -3287,6 +3312,233 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-linstaller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment l'installer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-fonctionnent-les-locales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment fonctionnent les locales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntaxe-et-utilisation-avec-des-exemples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntaxe et utilisation avec des exemples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntaxe et utilisation avec des exemples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generer-et-configurer-les-locales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Générer et configurer les locales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Générer et configurer les locales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-generer-les-locales-souhaitees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Générer les locales souhaitées
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-configurer-la-locale-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Configurer la locale par défaut
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemples-concrets-et-detailles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemples concrets et détaillés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemples concrets et détaillés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-1-configurer-le-systeme-en-francais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple 1 : Configurer le système en français
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple 1 : Configurer le système en français">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-generer-la-locale-francaise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Générer la locale française
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-mettre-a-jour-la-locale-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Mettre à jour la locale par défaut
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-reconfigurer-les-locales-optionnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Reconfigurer les locales (optionnel)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-2-configurer-une-application-pour-utiliser-une-locale-specifique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple 2 : Configurer une application pour utiliser une locale spécifique
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liste-des-commandes-et-options-liees-aux-locales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liste des commandes et options liées aux locales
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Liste des commandes et options liées aux locales">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commandes-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commandes principales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variables-denvironnement-locales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables d'environnement locales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dutilisation-dune-option" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'utilisation d'une option
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple d'utilisation d'une option">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifier-temporairement-la-langue-dune-commande" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifier temporairement la langue d'une commande
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3299,7 +3551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_systeme/nmon.html" class="md-nav__link">
+      <a href="nmon.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3366,7 +3618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/adduser.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/adduser.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3387,7 +3639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/deluser.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/deluser.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3408,7 +3660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/gpasswd.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/gpasswd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3429,7 +3681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/groupadd.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/groupadd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3450,7 +3702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/groupdel.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/groupdel.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3471,7 +3723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/id.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/id.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3492,7 +3744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/passwd.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/passwd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3513,7 +3765,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/su.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/su.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3534,7 +3786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/useradd.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/useradd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3555,7 +3807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/usermod.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/usermod.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3576,7 +3828,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestion_utilisateurs_groupes/utilisateurs.html" class="md-nav__link">
+      <a href="../gestion_utilisateurs_groupes/utilisateurs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3643,7 +3895,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestionnaires_paquets_outils_divers/network-manager_install.html" class="md-nav__link">
+      <a href="../gestionnaires_paquets_outils_divers/network-manager_install.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3664,7 +3916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/gestionnaires_paquets_outils_divers/vite.html" class="md-nav__link">
+      <a href="../gestionnaires_paquets_outils_divers/vite.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3731,7 +3983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/machines_virtuelles_conteneurs/virtualbux_dossierPartager.html" class="md-nav__link">
+      <a href="../machines_virtuelles_conteneurs/virtualbux_dossierPartager.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3798,7 +4050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/multipass/multipass-avantages.html" class="md-nav__link">
+      <a href="../multipass/multipass-avantages.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3826,7 +4078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/multipass/multipass-installation-deb.html" class="md-nav__link">
+      <a href="../multipass/multipass-installation-deb.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3854,7 +4106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/multipass/multipass-installation-snap.html" class="md-nav__link">
+      <a href="../multipass/multipass-installation-snap.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3882,7 +4134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/multipass/multipass-vs-virtualbox.html" class="md-nav__link">
+      <a href="../multipass/multipass-vs-virtualbox.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3956,7 +4208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/navigateurs_web/lynx.html" class="md-nav__link">
+      <a href="../navigateurs_web/lynx.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4023,7 +4275,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/AllowTcpForwarding.html" class="md-nav__link">
+      <a href="../reseau/AllowTcpForwarding.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4051,7 +4303,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/Fail2ban%20-%20log.html" class="md-nav__link">
+      <a href="../reseau/Fail2ban%20-%20log.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4079,7 +4331,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/SSH%20-%20config.html" class="md-nav__link">
+      <a href="../reseau/SSH%20-%20config.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4107,7 +4359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/X11Forwarding.html" class="md-nav__link">
+      <a href="../reseau/X11Forwarding.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4135,7 +4387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/hostname.html" class="md-nav__link">
+      <a href="../reseau/hostname.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4156,7 +4408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/hostnamectl.html" class="md-nav__link">
+      <a href="../reseau/hostnamectl.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4177,7 +4429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/netcat.html" class="md-nav__link">
+      <a href="../reseau/netcat.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4198,7 +4450,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/nmblookup.html" class="md-nav__link">
+      <a href="../reseau/nmblookup.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4219,7 +4471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/reseau/uniq.html" class="md-nav__link">
+      <a href="../reseau/uniq.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4293,7 +4545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/build-essential.html" class="md-nav__link">
+      <a href="../systeme/build-essential.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4314,7 +4566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/debian_alt_click.html" class="md-nav__link">
+      <a href="../systeme/debian_alt_click.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4335,7 +4587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/debian_ctrl_alt_fleche.html" class="md-nav__link">
+      <a href="../systeme/debian_ctrl_alt_fleche.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4356,7 +4608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/fstab.html" class="md-nav__link">
+      <a href="../systeme/fstab.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4377,7 +4629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/instal_debian.html" class="md-nav__link">
+      <a href="../systeme/instal_debian.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4398,7 +4650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/mount.html" class="md-nav__link">
+      <a href="../systeme/mount.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4419,7 +4671,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/mount_samba.html" class="md-nav__link">
+      <a href="../systeme/mount_samba.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4440,7 +4692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/ntfs-3g.html" class="md-nav__link">
+      <a href="../systeme/ntfs-3g.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4461,7 +4713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/path_scripts.html" class="md-nav__link">
+      <a href="../systeme/path_scripts.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4482,7 +4734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/systeme/redirections.html" class="md-nav__link">
+      <a href="../systeme/redirections.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4556,7 +4808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/terminal_gestionnaires_fenetres/hstr.html" class="md-nav__link">
+      <a href="../terminal_gestionnaires_fenetres/hstr.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4577,7 +4829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/terminal_gestionnaires_fenetres/tmux.html" class="md-nav__link">
+      <a href="../terminal_gestionnaires_fenetres/tmux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4598,7 +4850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/terminal_gestionnaires_fenetres/tty_clock.html" class="md-nav__link">
+      <a href="../terminal_gestionnaires_fenetres/tty_clock.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4619,7 +4871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/terminal_gestionnaires_fenetres/zsh_ohmyzsh.html" class="md-nav__link">
+      <a href="../terminal_gestionnaires_fenetres/zsh_ohmyzsh.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4686,7 +4938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/base64.html" class="md-nav__link">
+      <a href="../utilitaires_divers/base64.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4714,7 +4966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/bc.html" class="md-nav__link">
+      <a href="../utilitaires_divers/bc.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4735,7 +4987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/find-exec_sh.html" class="md-nav__link">
+      <a href="../utilitaires_divers/find-exec_sh.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4763,7 +5015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/find-mkdocs.html" class="md-nav__link">
+      <a href="../utilitaires_divers/find-mkdocs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4784,7 +5036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/find.html" class="md-nav__link">
+      <a href="../utilitaires_divers/find.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4812,7 +5064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/gestionnaire_de_paquets.html" class="md-nav__link">
+      <a href="../utilitaires_divers/gestionnaire_de_paquets.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4833,7 +5085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/hexdump.html" class="md-nav__link">
+      <a href="../utilitaires_divers/hexdump.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4861,7 +5113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/lsof.html" class="md-nav__link">
+      <a href="../utilitaires_divers/lsof.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4882,7 +5134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/raccourcis.html" class="md-nav__link">
+      <a href="../utilitaires_divers/raccourcis.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4903,7 +5155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/strings.html" class="md-nav__link">
+      <a href="../utilitaires_divers/strings.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4931,7 +5183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/terminal_raccourci_clavier.html" class="md-nav__link">
+      <a href="../utilitaires_divers/terminal_raccourci_clavier.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -4952,7 +5204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_divers/utils.html" class="md-nav__link">
+      <a href="../utilitaires_divers/utils.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5019,7 +5271,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_reseau/curl.html" class="md-nav__link">
+      <a href="../utilitaires_reseau/curl.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5040,7 +5292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_reseau/rsync.html" class="md-nav__link">
+      <a href="../utilitaires_reseau/rsync.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5061,7 +5313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_reseau/scp.html" class="md-nav__link">
+      <a href="../utilitaires_reseau/scp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5082,7 +5334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/utilitaires_reseau/wget.html" class="md-nav__link">
+      <a href="../utilitaires_reseau/wget.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5149,7 +5401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/visualisation_fichiers/cat.html" class="md-nav__link">
+      <a href="../visualisation_fichiers/cat.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5170,7 +5422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/visualisation_fichiers/grep.html" class="md-nav__link">
+      <a href="../visualisation_fichiers/grep.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5191,7 +5443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/visualisation_fichiers/head.html" class="md-nav__link">
+      <a href="../visualisation_fichiers/head.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5212,7 +5464,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../commandes-de-base/visualisation_fichiers/less.html" class="md-nav__link">
+      <a href="../visualisation_fichiers/less.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5286,7 +5538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../docker/container_nodejs-npm-tldr.html" class="md-nav__link">
+      <a href="../../docker/container_nodejs-npm-tldr.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5307,7 +5559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../docker/container_powershell.html" class="md-nav__link">
+      <a href="../../docker/container_powershell.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5328,7 +5580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../docker/docker-compose-2.html" class="md-nav__link">
+      <a href="../../docker/docker-compose-2.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5349,7 +5601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../docker/docker-compose.html" class="md-nav__link">
+      <a href="../../docker/docker-compose.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5370,7 +5622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../docker/install.html" class="md-nav__link">
+      <a href="../../docker/install.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5474,7 +5726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tai/RNCP37681-EXAM.html" class="md-nav__link">
+      <a href="../../emplois/tai/RNCP37681-EXAM.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5502,7 +5754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tai/RNCP37681-GPT-MIXTE.html" class="md-nav__link">
+      <a href="../../emplois/tai/RNCP37681-GPT-MIXTE.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5530,7 +5782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tai/RNCP37681-GPT-REF.html" class="md-nav__link">
+      <a href="../../emplois/tai/RNCP37681-GPT-REF.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5558,7 +5810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tai/RNCP37681-GPT.html" class="md-nav__link">
+      <a href="../../emplois/tai/RNCP37681-GPT.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5586,7 +5838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tai/Tai-Role.html" class="md-nav__link">
+      <a href="../../emplois/tai/Tai-Role.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5653,7 +5905,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../emplois/tssr/TSSR-RNCP.html" class="md-nav__link">
+      <a href="../../emplois/tssr/TSSR-RNCP.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5727,7 +5979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../hardware/GIGABYTE%20GC-WBAX1200.html" class="md-nav__link">
+      <a href="../../hardware/GIGABYTE%20GC-WBAX1200.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5748,7 +6000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../hardware/nvidia.html" class="md-nav__link">
+      <a href="../../hardware/nvidia.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5852,7 +6104,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/expressions-reguliere/interpreteurs.html" class="md-nav__link">
+      <a href="../../informatique/expressions-reguliere/interpreteurs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5926,7 +6178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/general/Chemin-absolue-cannonique.html" class="md-nav__link">
+      <a href="../../informatique/general/Chemin-absolue-cannonique.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5954,7 +6206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/general/Chemins-absolus.html" class="md-nav__link">
+      <a href="../../informatique/general/Chemins-absolus.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -5982,7 +6234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/general/Inodes.html" class="md-nav__link">
+      <a href="../../informatique/general/Inodes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6010,7 +6262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/general/Metadata.html" class="md-nav__link">
+      <a href="../../informatique/general/Metadata.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6084,7 +6336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/network/Network-Protocol.html" class="md-nav__link">
+      <a href="../../informatique/network/Network-Protocol.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6112,7 +6364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/network/Network-Protocol_Physique.html" class="md-nav__link">
+      <a href="../../informatique/network/Network-Protocol_Physique.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6133,7 +6385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/network/Network-Protocol_Ranges.html" class="md-nav__link">
+      <a href="../../informatique/network/Network-Protocol_Ranges.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6154,7 +6406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/network/Network-Protocol_TCP-IP.html" class="md-nav__link">
+      <a href="../../informatique/network/Network-Protocol_TCP-IP.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6175,7 +6427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/network/Network.html" class="md-nav__link">
+      <a href="../../informatique/network/Network.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6280,7 +6532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/boot-devices.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/boot-devices.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6308,7 +6560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/boot-sequence.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/boot-sequence.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6329,7 +6581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/clear-cmos.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/clear-cmos.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6357,7 +6609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/cmos.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/cmos.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6385,7 +6637,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/firmware.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/firmware.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6413,7 +6665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/partiotion-tables.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/partiotion-tables.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6434,7 +6686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/bios/volatile-memory.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/bios/volatile-memory.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6508,7 +6760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/it-process/IT-Process-Layers.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/it-process/IT-Process-Layers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6536,7 +6788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/ordinateur/it-process/IT-Process-Model.html" class="md-nav__link">
+      <a href="../../informatique/ordinateur/it-process/IT-Process-Model.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6618,7 +6870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/differrences.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/differrences.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6646,7 +6898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/emulateur-terminal.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/emulateur-terminal.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6674,7 +6926,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/interpreteur-de-commande.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/interpreteur-de-commande.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6702,7 +6954,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/prompt.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/prompt.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6730,7 +6982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/shell.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/shell.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6758,7 +7010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../informatique/shell-terminal/terminaux-physique.html" class="md-nav__link">
+      <a href="../../informatique/shell-terminal/terminaux-physique.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6798,28 +7050,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -6830,7 +7077,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             Langages
@@ -6882,7 +7129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/awk%20est%20un%20langage%20de%20programmation%20de.html" class="md-nav__link">
+      <a href="../../langages/awk/awk%20est%20un%20langage%20de%20programmation%20de.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6903,7 +7150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/awk.html" class="md-nav__link">
+      <a href="../../langages/awk/awk.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6924,7 +7171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/complet.html" class="md-nav__link">
+      <a href="../../langages/awk/complet.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6945,7 +7192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/fonctions.html" class="md-nav__link">
+      <a href="../../langages/awk/fonctions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6966,7 +7213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/regex.html" class="md-nav__link">
+      <a href="../../langages/awk/regex.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -6987,7 +7234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../awk/variables.html" class="md-nav__link">
+      <a href="../../langages/awk/variables.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7013,8 +7260,6 @@
                 
   
   
-    
-  
   
   
     
@@ -7024,11 +7269,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
         
           
           <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
@@ -7042,7 +7287,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9_2">
             <span class="md-nav__icon md-icon"></span>
             Bash
@@ -7056,7 +7301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ifs.html" class="md-nav__link">
+      <a href="../../langages/bash/ifs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7077,7 +7322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../let.html" class="md-nav__link">
+      <a href="../../langages/bash/let.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7098,7 +7343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../read.html" class="md-nav__link">
+      <a href="../../langages/bash/read.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7119,7 +7364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../typeset.html" class="md-nav__link">
+      <a href="../../langages/bash/typeset.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7137,8 +7382,6 @@
                 
   
   
-    
-  
   
   
     
@@ -7148,11 +7391,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2_5" >
         
           
           <label class="md-nav__link" for="__nav_9_2_5" id="__nav_9_2_5_label" tabindex="0">
@@ -7166,7 +7409,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_2_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_2_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9_2_5">
             <span class="md-nav__icon md-icon"></span>
             Bash docu
@@ -7180,7 +7423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../BASH_REMATCH.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/BASH_REMATCH.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7208,7 +7451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Commandes%20Int%C3%A9gr%C3%A9es.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Commandes%20Int%C3%A9gr%C3%A9es.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7229,7 +7472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Conditions-composite.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Conditions-composite.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7257,7 +7500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Conditions.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Conditions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7285,7 +7528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Cr%C3%A9ation-script.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Cr%C3%A9ation-script.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7313,7 +7556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Expansion-de-Param%C3%A8tre.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Expansion-de-Param%C3%A8tre.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7341,7 +7584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Expansion-de-Tableau.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Expansion-de-Tableau.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7369,7 +7612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Extension-arithm%C3%A9tique.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Extension-arithm%C3%A9tique.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7397,7 +7640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../IFS.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/IFS.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7425,7 +7668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Operateurs-Logiques.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Operateurs-Logiques.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7453,7 +7696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Shebang.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Shebang.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7481,7 +7724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Structures-Conditionnelles.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Structures-Conditionnelles.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7509,7 +7752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Substitution-de-commandes.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Substitution-de-commandes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7537,7 +7780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Tableaux.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Tableaux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7565,7 +7808,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Variables-Speciales.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/Variables-Speciales.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7593,7 +7836,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../arithmetiques.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/arithmetiques.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7614,7 +7857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chaines.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/chaines.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7635,7 +7878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../chaines_operateurs.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/chaines_operateurs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7656,7 +7899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../echo.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/echo.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7684,7 +7927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../eval.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/eval.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7712,7 +7955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../exit.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/exit.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7740,7 +7983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fichiers.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/fichiers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7761,7 +8004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../local%20-a.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/local%20-a.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7789,7 +8032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../read.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/read.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7810,7 +8053,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../retour%20derni%C3%A8re%20commande.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/retour%20derni%C3%A8re%20commande.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7838,7 +8081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../set.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/set.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7866,7 +8109,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../source.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/source.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7894,7 +8137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../structure_boucles.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/structure_boucles.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7922,7 +8165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tableaux%20associatifs.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/tableaux%20associatifs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7950,7 +8193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../unset.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/unset.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7971,7 +8214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../variables.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/variables.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -7992,7 +8235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../variables_environnement.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/variables_environnement.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8013,7 +8256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../while%20read%20-r%20-%201.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/while%20read%20-r%20-%201.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8041,7 +8284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../while%20read%20-r%20-%202.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/while%20read%20-r%20-%202.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8066,8 +8309,6 @@
                 
   
   
-    
-  
   
   
     
@@ -8077,11 +8318,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2_5_35" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2_5_35" >
         
           
           <label class="md-nav__link" for="__nav_9_2_5_35" id="__nav_9_2_5_35_label" tabindex="0">
@@ -8095,7 +8336,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_9_2_5_35_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_9_2_5_35_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_9_2_5_35">
             <span class="md-nav__icon md-icon"></span>
             Del
@@ -8109,7 +8350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="condition_composite.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/condition_composite.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8130,7 +8371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="conditions.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/conditions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8151,7 +8392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="cr%C3%A9ation%20script.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/cr%C3%A9ation%20script.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8179,7 +8420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="op%C3%A9rateurs%20logiques.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/op%C3%A9rateurs%20logiques.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8207,7 +8448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="structure_conditionelle.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/structure_conditionelle.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8225,30 +8466,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Tableaux
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="tableaux.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../langages/bash/bash-docu/del/tableaux.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8257,203 +8478,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tableaux-indexes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tableaux Indexés
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tableaux Indexés">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#creation-dun-tableau-indexe" class="md-nav__link">
-    <span class="md-ellipsis">
-      Création d'un Tableau Indexé
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#acces-et-modification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Accès et Modification
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ajout-et-suppression-delements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ajout et Suppression d'Éléments
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#taille-du-tableau-et-iteration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taille du Tableau et Itération
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#declaration-avec-expansion-de-sequence" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déclaration avec Expansion de Séquence
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Déclaration avec Expansion de Séquence">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#avantages-et-limitations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avantages et Limitations
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#declaration-avec-chaine-de-caracteres" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déclaration avec Chaîne de Caractères
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tableaux-associatifs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tableaux Associatifs
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tableaux Associatifs">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#declaration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déclaration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#acces-modification-ajout-et-suppression" class="md-nav__link">
-    <span class="md-ellipsis">
-      Accès, Modification, Ajout, et Suppression
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#iteration-sur-les-cles-et-les-valeurs" class="md-nav__link">
-    <span class="md-ellipsis">
-      Itération sur les Clés et les Valeurs
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#operations-avancees" class="md-nav__link">
-    <span class="md-ellipsis">
-      Opérations Avancées
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Opérations Avancées">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sous-ensembles-et-slicing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sous-ensembles et Slicing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recherche-et-filtre" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recherche et Filtre
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#longueur-des-elements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Longueur des Éléments
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -8466,7 +8490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="variables_special.html" class="md-nav__link">
+      <a href="../../langages/bash/bash-docu/del/variables_special.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8541,7 +8565,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/arithmetiques.html" class="md-nav__link">
+      <a href="../../langages/bash/exercices/arithmetiques.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8562,7 +8586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/chaines-operateurs.html" class="md-nav__link">
+      <a href="../../langages/bash/exercices/chaines-operateurs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8583,7 +8607,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/chaines.html" class="md-nav__link">
+      <a href="../../langages/bash/exercices/chaines.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8604,7 +8628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/conditions.html" class="md-nav__link">
+      <a href="../../langages/bash/exercices/conditions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8686,7 +8710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../python/python-env.html" class="md-nav__link">
+      <a href="../../python/python-env.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8752,7 +8776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/resolution-nom-reseau.html" class="md-nav__link">
+      <a href="../../sysadmin/resolution-nom-reseau.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8773,7 +8797,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/wsdd.html" class="md-nav__link">
+      <a href="../../sysadmin/wsdd.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8832,7 +8856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/iptables/iptables.html" class="md-nav__link">
+      <a href="../../sysadmin/iptables/iptables.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8853,7 +8877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/iptables/iptables_actions.html" class="md-nav__link">
+      <a href="../../sysadmin/iptables/iptables_actions.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8874,7 +8898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/iptables/iptables_chaines.html" class="md-nav__link">
+      <a href="../../sysadmin/iptables/iptables_chaines.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8895,7 +8919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/iptables/iptables_commandes.html" class="md-nav__link">
+      <a href="../../sysadmin/iptables/iptables_commandes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8916,7 +8940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/iptables/iptables_tuto.html" class="md-nav__link">
+      <a href="../../sysadmin/iptables/iptables_tuto.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -8983,7 +9007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/samba/samba.html" class="md-nav__link">
+      <a href="../../sysadmin/samba/samba.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9004,7 +9028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/samba/samba_ports.html" class="md-nav__link">
+      <a href="../../sysadmin/samba/samba_ports.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9025,7 +9049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/samba/samba_user.html" class="md-nav__link">
+      <a href="../../sysadmin/samba/samba_user.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9046,7 +9070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/samba/smb-client.html" class="md-nav__link">
+      <a href="../../sysadmin/samba/smb-client.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9105,7 +9129,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/samba/smbconf/ex_1.html" class="md-nav__link">
+      <a href="../../sysadmin/samba/smbconf/ex_1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9180,7 +9204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/serveur_web/lamp.html" class="md-nav__link">
+      <a href="../../sysadmin/serveur_web/lamp.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9201,7 +9225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/serveur_web/mariadb.html" class="md-nav__link">
+      <a href="../../sysadmin/serveur_web/mariadb.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9222,7 +9246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/serveur_web/php.html" class="md-nav__link">
+      <a href="../../sysadmin/serveur_web/php.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9243,7 +9267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/serveur_web/phpmyadmin.html" class="md-nav__link">
+      <a href="../../sysadmin/serveur_web/phpmyadmin.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9310,7 +9334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ssh/linux_client_keygen.html" class="md-nav__link">
+      <a href="../../sysadmin/ssh/linux_client_keygen.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9331,7 +9355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ssh/powershell_client_keygen.html" class="md-nav__link">
+      <a href="../../sysadmin/ssh/powershell_client_keygen.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9352,7 +9376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ssh/ssh_cl%C3%A9-de-chiffrement.html" class="md-nav__link">
+      <a href="../../sysadmin/ssh/ssh_cl%C3%A9-de-chiffrement.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9411,7 +9435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ssh/journalctl-rpi-debian/log_and_fix.html" class="md-nav__link">
+      <a href="../../sysadmin/ssh/journalctl-rpi-debian/log_and_fix.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9486,7 +9510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ufw/ufw.html" class="md-nav__link">
+      <a href="../../sysadmin/ufw/ufw.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9507,7 +9531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ufw/ufw_commandes.html" class="md-nav__link">
+      <a href="../../sysadmin/ufw/ufw_commandes.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9528,7 +9552,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ufw/ufw_options.html" class="md-nav__link">
+      <a href="../../sysadmin/ufw/ufw_options.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9549,7 +9573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../sysadmin/ufw/ufw_tuto.html" class="md-nav__link">
+      <a href="../../sysadmin/ufw/ufw_tuto.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9623,7 +9647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Multipass.html" class="md-nav__link">
+      <a href="../../tuto_adri/Multipass.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9651,7 +9675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/TP%20Scripting%20bash%20-%20texte_1.html" class="md-nav__link">
+      <a href="../../tuto_adri/TP%20Scripting%20bash%20-%20texte_1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9679,7 +9703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/TP%20Scripting%20shell%20-%20git.html" class="md-nav__link">
+      <a href="../../tuto_adri/TP%20Scripting%20shell%20-%20git.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9707,7 +9731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/expression.html" class="md-nav__link">
+      <a href="../../tuto_adri/expression.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9735,7 +9759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/install_nodejs.html" class="md-nav__link">
+      <a href="../../tuto_adri/install_nodejs.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9756,7 +9780,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/install_rpi_v1-list.html" class="md-nav__link">
+      <a href="../../tuto_adri/install_rpi_v1-list.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9777,7 +9801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/install_rpi_v1.html" class="md-nav__link">
+      <a href="../../tuto_adri/install_rpi_v1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9798,7 +9822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/install_vscode.html" class="md-nav__link">
+      <a href="../../tuto_adri/install_vscode.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9857,7 +9881,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/Les-fichiers.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/Les-fichiers.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9885,7 +9909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/Shell.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/Shell.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -9951,7 +9975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/network/Network.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/network/Network.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10018,7 +10042,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/ordinateur/IT-IO-Devices.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/ordinateur/IT-IO-Devices.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10046,7 +10070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/ordinateur/IT-Process.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/ordinateur/IT-Process.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10074,7 +10098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/ordinateur/bios.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/ordinateur/bios.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10102,7 +10126,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Informatique/ordinateur/cpu.html" class="md-nav__link">
+      <a href="../../tuto_adri/Informatique/ordinateur/cpu.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10222,7 +10246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/overthewire/overTheWire-bandit4.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/overthewire/overTheWire-bandit4.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10296,7 +10320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/programmes/Multipass.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/programmes/Multipass.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10370,7 +10394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/scripting/ascii.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/scripting/ascii.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10391,7 +10415,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/scripting/expression.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/scripting/expression.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10419,7 +10443,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/scripting/find-exec_sh.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/scripting/find-exec_sh.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10485,7 +10509,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/scripting/tp/TP-Scripting-bash-git.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/scripting/tp/TP-Scripting-bash-git.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10513,7 +10537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/Linux/scripting/tp/TP-Scripting-bash-texte_1.html" class="md-nav__link">
+      <a href="../../tuto_adri/Linux/scripting/tp/TP-Scripting-bash-texte_1.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10641,7 +10665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../tuto_adri/emplois/tai/Le-Tai.html" class="md-nav__link">
+      <a href="../../tuto_adri/emplois/tai/Le-Tai.html" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -10712,65 +10736,122 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tableaux-indexes" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Tableaux Indexés
+      Introduction
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Tableaux Indexés">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-linstaller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment l'installer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-fonctionnent-les-locales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment fonctionnent les locales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntaxe-et-utilisation-avec-des-exemples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Syntaxe et utilisation avec des exemples
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntaxe et utilisation avec des exemples">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#creation-dun-tableau-indexe" class="md-nav__link">
+  <a href="#generer-et-configurer-les-locales" class="md-nav__link">
     <span class="md-ellipsis">
-      Création d'un Tableau Indexé
+      Générer et configurer les locales
     </span>
   </a>
   
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#acces-et-modification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Accès et Modification
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ajout-et-suppression-delements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ajout et Suppression d'Éléments
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#taille-du-tableau-et-iteration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taille du Tableau et Itération
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#declaration-avec-expansion-de-sequence" class="md-nav__link">
-    <span class="md-ellipsis">
-      Déclaration avec Expansion de Séquence
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Déclaration avec Expansion de Séquence">
+    <nav class="md-nav" aria-label="Générer et configurer les locales">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#avantages-et-limitations" class="md-nav__link">
+  <a href="#etape-1-generer-les-locales-souhaitees" class="md-nav__link">
     <span class="md-ellipsis">
-      Avantages et Limitations
+      Étape 1 : Générer les locales souhaitées
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-configurer-la-locale-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Configurer la locale par défaut
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemples-concrets-et-detailles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemples concrets et détaillés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemples concrets et détaillés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-1-configurer-le-systeme-en-francais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple 1 : Configurer le système en français
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple 1 : Configurer le système en français">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-generer-la-locale-francaise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Générer la locale française
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-mettre-a-jour-la-locale-par-defaut" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Mettre à jour la locale par défaut
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-reconfigurer-les-locales-optionnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Reconfigurer les locales (optionnel)
     </span>
   </a>
   
@@ -10782,9 +10863,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#declaration-avec-chaine-de-caracteres" class="md-nav__link">
+  <a href="#exemple-2-configurer-une-application-pour-utiliser-une-locale-specifique" class="md-nav__link">
     <span class="md-ellipsis">
-      Déclaration avec Chaîne de Caractères
+      Exemple 2 : Configurer une application pour utiliser une locale spécifique
     </span>
   </a>
   
@@ -10796,37 +10877,47 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tableaux-associatifs" class="md-nav__link">
+  <a href="#liste-des-commandes-et-options-liees-aux-locales" class="md-nav__link">
     <span class="md-ellipsis">
-      Tableaux Associatifs
+      Liste des commandes et options liées aux locales
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Tableaux Associatifs">
+    <nav class="md-nav" aria-label="Liste des commandes et options liées aux locales">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#declaration" class="md-nav__link">
+  <a href="#commandes-principales" class="md-nav__link">
     <span class="md-ellipsis">
-      Déclaration
+      Commandes principales
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acces-modification-ajout-et-suppression" class="md-nav__link">
+  <a href="#variables-denvironnement-locales" class="md-nav__link">
     <span class="md-ellipsis">
-      Accès, Modification, Ajout, et Suppression
+      Variables d'environnement locales
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#iteration-sur-les-cles-et-les-valeurs" class="md-nav__link">
+  <a href="#exemple-dutilisation-dune-option" class="md-nav__link">
     <span class="md-ellipsis">
-      Itération sur les Clés et les Valeurs
+      Exemple d'utilisation d'une option
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exemple d'utilisation d'une option">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modifier-temporairement-la-langue-dune-commande" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modifier temporairement la langue d'une commande
     </span>
   </a>
   
@@ -10834,43 +10925,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#operations-avancees" class="md-nav__link">
-    <span class="md-ellipsis">
-      Opérations Avancées
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Opérations Avancées">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sous-ensembles-et-slicing" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sous-ensembles et Slicing
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#recherche-et-filtre" class="md-nav__link">
-    <span class="md-ellipsis">
-      Recherche et Filtre
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#longueur-des-elements" class="md-nav__link">
-    <span class="md-ellipsis">
-      Longueur des Éléments
-    </span>
-  </a>
   
 </li>
         
@@ -10907,146 +10961,215 @@
     
       
     
-    <a href="https://github.com/n0LSA/documentations_linux/raw/main/docs/langages/bash/bash-docu/del/tableaux.md" title="Consulter la source de cette page" class="md-content__button md-icon">
+    <a href="https://github.com/n0LSA/documentations_linux/raw/main/docs/commandes-de-base/gestion_systeme/locale.md" title="Consulter la source de cette page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5Z"/></svg>
     </a>
   
 
 
+<h1 id="documentation-sur-les-locales-sous-linux-debian">Documentation sur les Locales sous Linux (Debian)<a class="headerlink" href="#documentation-sur-les-locales-sous-linux-debian" title="Permanent link">&para;</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Les <strong>locales</strong> sous Linux définissent les paramètres régionaux du système, notamment la langue, le format de date, le format de monnaie, et d'autres préférences culturelles. Elles permettent aux applications de présenter les informations dans un format adapté à l'utilisateur, améliorant ainsi l'expérience globale du système.</p>
+<hr />
+<h2 id="comment-linstaller">Comment l'installer<a class="headerlink" href="#comment-linstaller" title="Permanent link">&para;</a></h2>
+<p>Sur Debian, le paquet <code>locales</code> est généralement installé par défaut. Toutefois, si vous avez besoin d'installer ou de réinstaller les locales, vous pouvez utiliser la commande suivante :</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>locales
+</code></pre></div>
+<p><strong>Explication :</strong></p>
 <ul>
-<li><a href="#structures-de-type-tableaux-en-bash">Structures de Type Tableaux en Bash</a></li>
-<li><a href="#tableaux-indexés">Tableaux Indexés</a><ul>
-<li><a href="#création-dun-tableau-indexé">Création d'un Tableau Indexé</a></li>
-<li><a href="#accès-et-modification">Accès et Modification</a></li>
-<li><a href="#ajout-et-suppression-déléments">Ajout et Suppression d'Éléments</a></li>
-<li><a href="#taille-du-tableau-et-itération">Taille du Tableau et Itération</a></li>
-<li><a href="#déclaration-avec-expansion-de-séquence">Déclaration avec Expansion de Séquence</a></li>
-<li><a href="#avantages-et-limitations">Avantages et Limitations</a></li>
-<li><a href="#déclaration-avec-chaîne-de-caractères">Déclaration avec Chaîne de Caractères</a></li>
+<li><code>sudo apt update</code> : Met à jour la liste des paquets disponibles.</li>
+<li><code>sudo apt install locales</code> : Installe le paquet <code>locales</code>, qui contient les outils nécessaires pour gérer les paramètres régionaux.</li>
 </ul>
-</li>
-<li><a href="#tableaux-associatifs">Tableaux Associatifs</a><ul>
-<li><a href="#déclaration">Déclaration</a></li>
-<li><a href="#accès-modification-ajout-et-suppression">Accès, Modification, Ajout, et Suppression</a></li>
-<li><a href="#itération-sur-les-clés-et-les-valeurs">Itération sur les Clés et les Valeurs</a></li>
-</ul>
-</li>
-<li><a href="#opérations-avancées">Opérations Avancées</a><ul>
-<li><a href="#sous-ensembles-et-slicing">Sous-ensembles et Slicing</a></li>
-<li><a href="#recherche-et-filtre">Recherche et Filtre</a></li>
-<li><a href="#longueur-des-éléments">Longueur des Éléments</a></li>
-</ul>
-</li>
-<li><a href="#conclusion">Conclusion</a></li>
-</ul>
-<h1 id="structures-de-type-tableaux-en-bash">Structures de Type Tableaux en Bash<a class="headerlink" href="#structures-de-type-tableaux-en-bash" title="Permanent link">&para;</a></h1>
-<p>Les tableaux en Bash permettent de regrouper plusieurs valeurs dans une seule structure, facilitant la gestion de listes de données. Bash supporte deux types de tableaux : les tableaux indexés et les tableaux associatifs. Ce guide explore la création, la manipulation et les opérations avancées sur ces structures de données.</p>
-<h2 id="tableaux-indexes">Tableaux Indexés<a class="headerlink" href="#tableaux-indexes" title="Permanent link">&para;</a></h2>
-<p>Les tableaux indexés utilisent des nombres entiers comme index pour accéder aux valeurs.</p>
-<h3 id="creation-dun-tableau-indexe">Création d'un Tableau Indexé<a class="headerlink" href="#creation-dun-tableau-indexe" title="Permanent link">&para;</a></h3>
-<p>Pour déclarer un tableau indexé, utilisez la syntaxe suivante :</p>
-<div class="highlight"><pre><span></span><code><span class="nv">mon_tableau</span><span class="o">=(</span><span class="s1">&#39;premier&#39;</span><span class="w"> </span><span class="s1">&#39;deuxième&#39;</span><span class="w"> </span><span class="s1">&#39;troisième&#39;</span><span class="o">)</span>
+<hr />
+<h2 id="comment-fonctionnent-les-locales">Comment fonctionnent les locales<a class="headerlink" href="#comment-fonctionnent-les-locales" title="Permanent link">&para;</a></h2>
+<p>Les locales fonctionnent en définissant des variables d'environnement qui indiquent au système et aux applications comment présenter les informations. Par exemple, la variable <code>LANG</code> détermine la langue par défaut, tandis que <code>LC_TIME</code> spécifie le format de l'heure.</p>
+<p>Les locales sont configurées en générant les paramètres régionaux souhaités et en définissant les variables d'environnement appropriées. Ceci se fait généralement en éditant les fichiers de configuration ou en utilisant des outils de configuration.</p>
+<hr />
+<h2 id="syntaxe-et-utilisation-avec-des-exemples">Syntaxe et utilisation avec des exemples<a class="headerlink" href="#syntaxe-et-utilisation-avec-des-exemples" title="Permanent link">&para;</a></h2>
+<h3 id="generer-et-configurer-les-locales">Générer et configurer les locales<a class="headerlink" href="#generer-et-configurer-les-locales" title="Permanent link">&para;</a></h3>
+<h4 id="etape-1-generer-les-locales-souhaitees">Étape 1 : Générer les locales souhaitées<a class="headerlink" href="#etape-1-generer-les-locales-souhaitees" title="Permanent link">&para;</a></h4>
+<p>Utilisez la commande <code>locale-gen</code> pour générer les locales dont vous avez besoin.</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>locale-gen<span class="w"> </span>fr_FR.UTF-8<span class="w"> </span>en_US.UTF-8
 </code></pre></div>
-<p>Ou en spécifiant les indices :</p>
-<div class="highlight"><pre><span></span><code><span class="nv">mon_tableau</span><span class="o">=([</span><span class="m">0</span><span class="o">]=</span><span class="s1">&#39;premier&#39;</span><span class="w"> </span><span class="o">[</span><span class="m">1</span><span class="o">]=</span><span class="s1">&#39;deuxième&#39;</span><span class="w"> </span><span class="o">[</span><span class="m">2</span><span class="o">]=</span><span class="s1">&#39;troisième&#39;</span><span class="o">)</span>
-</code></pre></div>
-<h3 id="acces-et-modification">Accès et Modification<a class="headerlink" href="#acces-et-modification" title="Permanent link">&para;</a></h3>
-<p>Pour accéder à un élément du tableau, utilisez <code>${nom_du_tableau[indice]}</code>. Pour modifier un élément, affectez une nouvelle valeur à cet indice.</p>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="si">${</span><span class="nv">mon_tableau</span><span class="p">[0]</span><span class="si">}</span><span class="w">  </span><span class="c1"># Affiche &#39;premier&#39;</span>
-mon_tableau<span class="o">[</span><span class="m">0</span><span class="o">]=</span><span class="s1">&#39;nouveau&#39;</span>
-</code></pre></div>
-<h3 id="ajout-et-suppression-delements">Ajout et Suppression d'Éléments<a class="headerlink" href="#ajout-et-suppression-delements" title="Permanent link">&para;</a></h3>
-<p>Pour ajouter un élément, utilisez un indice non utilisé ou <code>+=</code> pour ajouter à la fin :</p>
-<div class="highlight"><pre><span></span><code>mon_tableau<span class="o">[</span><span class="m">3</span><span class="o">]=</span><span class="s1">&#39;quatrième&#39;</span>
-<span class="nv">mon_tableau</span><span class="o">+=(</span><span class="s1">&#39;cinquième&#39;</span><span class="o">)</span>
-</code></pre></div>
-<p>Pour supprimer un élément :</p>
-<div class="highlight"><pre><span></span><code><span class="nb">unset</span><span class="w"> </span>mon_tableau<span class="o">[</span><span class="m">1</span><span class="o">]</span>
-</code></pre></div>
-<h3 id="taille-du-tableau-et-iteration">Taille du Tableau et Itération<a class="headerlink" href="#taille-du-tableau-et-iteration" title="Permanent link">&para;</a></h3>
-<p>La taille d'un tableau s'obtient avec <code>${#nom_du_tableau[@]}</code>. Pour itérer sur un tableau :</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>i<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">mon_tableau</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="nv">$i</span>
-<span class="k">done</span>
-</code></pre></div>
-<h3 id="declaration-avec-expansion-de-sequence">Déclaration avec Expansion de Séquence<a class="headerlink" href="#declaration-avec-expansion-de-sequence" title="Permanent link">&para;</a></h3>
-<p>Bash permet l'utilisation d'expansions de séquences pour initialiser des tableaux indexés. Cette fonctionnalité est particulièrement utile pour créer rapidement des séquences de nombres ou de lettres.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Initialisation d&#39;un tableau avec une expansion numérique</span>
-<span class="nv">numeros</span><span class="o">=({</span><span class="m">1</span>..10<span class="o">})</span>
-
-<span class="c1"># Initialisation d&#39;un tableau avec une expansion alphabétique</span>
-<span class="nv">lettres</span><span class="o">=({</span>a..e<span class="o">})</span>
-</code></pre></div>
-<h4 id="avantages-et-limitations">Avantages et Limitations<a class="headerlink" href="#avantages-et-limitations" title="Permanent link">&para;</a></h4>
-<p>L'expansion de séquences offre une méthode concise pour créer des tableaux. Cependant, elle est limitée aux séquences continues et ordonnées. Pour les séquences personnalisées ou non linéaires, l'initialisation manuelle des tableaux ou l'utilisation de commandes pour générer des valeurs est nécessaire.</p>
-<h3 id="declaration-avec-chaine-de-caracteres">Déclaration avec Chaîne de Caractères<a class="headerlink" href="#declaration-avec-chaine-de-caracteres" title="Permanent link">&para;</a></h3>
-<p>Lorsque vous déclarez un tableau en assignant une chaîne de caractères avec des espaces, Bash interprète cette chaîne comme une série de mots séparés par des espaces et les assigne aux indices successifs du tableau.</p>
-<p><div class="highlight"><pre><span></span><code><span class="c1"># Création d&#39;un tableau de nombres comme une chaîne de caractères</span>
-<span class="nv">tab</span><span class="o">=</span><span class="s2">&quot;un deux trois quatre cinq&quot;</span>
-<span class="c1"># Conversion de la chaîne en un tableau</span>
-<span class="nv">nombres</span><span class="o">=(</span><span class="nv">$tab</span><span class="o">)</span>
-</code></pre></div>
-- Pour accéder au troisième élément (<code>trois</code>), vous feriez :</p>
-<div class="highlight"><pre><span></span><code>```bash
-echo ${tableau[2]}
-```
-</code></pre></div>
+<p><strong>Explication :</strong></p>
 <ul>
+<li><code>sudo</code> : Exécute la commande avec des privilèges administrateur.</li>
+<li><code>locale-gen</code> : Génère les locales spécifiées.</li>
+<li><code>fr_FR.UTF-8 en_US.UTF-8</code> : Les locales à générer (français de France et anglais des États-Unis en UTF-8).</li>
+</ul>
+<h4 id="etape-2-configurer-la-locale-par-defaut">Étape 2 : Configurer la locale par défaut<a class="headerlink" href="#etape-2-configurer-la-locale-par-defaut" title="Permanent link">&para;</a></h4>
+<p>Utilisez la commande <code>update-locale</code> pour définir la locale par défaut du système.</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>update-locale<span class="w"> </span><span class="nv">LANG</span><span class="o">=</span>fr_FR.UTF-8
+</code></pre></div>
+<p><strong>Explication :</strong></p>
+<ul>
+<li><code>update-locale</code> : Met à jour les variables d'environnement locales.</li>
+<li><code>LANG=fr_FR.UTF-8</code> : Définit la langue par défaut du système au français de France en UTF-8.</li>
+</ul>
+<hr />
+<h2 id="exemples-concrets-et-detailles">Exemples concrets et détaillés<a class="headerlink" href="#exemples-concrets-et-detailles" title="Permanent link">&para;</a></h2>
+<h3 id="exemple-1-configurer-le-systeme-en-francais">Exemple 1 : Configurer le système en français<a class="headerlink" href="#exemple-1-configurer-le-systeme-en-francais" title="Permanent link">&para;</a></h3>
+<h4 id="etape-1-generer-la-locale-francaise">Étape 1 : Générer la locale française<a class="headerlink" href="#etape-1-generer-la-locale-francaise" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>locale-gen<span class="w"> </span>fr_FR.UTF-8
+</code></pre></div>
+<p><strong>Décomposition :</strong></p>
+<ul>
+<li>Génère la locale pour le français de France en encodage UTF-8.</li>
+</ul>
+<h4 id="etape-2-mettre-a-jour-la-locale-par-defaut">Étape 2 : Mettre à jour la locale par défaut<a class="headerlink" href="#etape-2-mettre-a-jour-la-locale-par-defaut" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>update-locale<span class="w"> </span><span class="nv">LANG</span><span class="o">=</span>fr_FR.UTF-8
+</code></pre></div>
+<p><strong>Décomposition :</strong></p>
+<ul>
+<li>Définit <code>LANG</code> à <code>fr_FR.UTF-8</code>, ce qui indique au système d'utiliser cette locale par défaut.</li>
+</ul>
+<h4 id="etape-3-reconfigurer-les-locales-optionnel">Étape 3 : Reconfigurer les locales (optionnel)<a class="headerlink" href="#etape-3-reconfigurer-les-locales-optionnel" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dpkg-reconfigure<span class="w"> </span>locales
+</code></pre></div>
+<p><strong>Décomposition :</strong></p>
+<ul>
+<li>Lance un utilitaire interactif pour configurer les locales.</li>
+<li>Permet de sélectionner les locales à générer et la locale par défaut.</li>
+</ul>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Ces commandes configurent le système pour qu'il utilise le français comme langue par défaut, avec les formats de date, heure, et monnaie correspondants.</li>
+</ul>
+<h3 id="exemple-2-configurer-une-application-pour-utiliser-une-locale-specifique">Exemple 2 : Configurer une application pour utiliser une locale spécifique<a class="headerlink" href="#exemple-2-configurer-une-application-pour-utiliser-une-locale-specifique" title="Permanent link">&para;</a></h3>
+<p>Supposons que vous souhaitiez lancer une application en utilisant une locale différente de celle du système.</p>
+<div class="highlight"><pre><span></span><code><span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8<span class="w"> </span>firefox
+</code></pre></div>
+<p><strong>Décomposition :</strong></p>
+<ul>
+<li><code>LC_ALL=en_US.UTF-8</code> : Définit temporairement la locale pour cette session à l'anglais des États-Unis.</li>
+<li><code>firefox</code> : Lance l'application Firefox.</li>
+</ul>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Firefox sera lancé avec les paramètres régionaux en_US.UTF-8, affichant l'interface et les formats en anglais.</li>
+</ul>
+<hr />
+<h2 id="liste-des-commandes-et-options-liees-aux-locales">Liste des commandes et options liées aux locales<a class="headerlink" href="#liste-des-commandes-et-options-liees-aux-locales" title="Permanent link">&para;</a></h2>
+<h3 id="commandes-principales">Commandes principales<a class="headerlink" href="#commandes-principales" title="Permanent link">&para;</a></h3>
+<ol>
 <li>
-<p>Pour itérer sur chaque élément du tableau :</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>element<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">tableau</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="nv">$element</span>
-<span class="k">done</span>
+<p><strong><code>locale</code></strong> : Affiche les paramètres régionaux actuels.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code>locale
 </code></pre></div>
 </li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Affiche toutes les variables locales en vigueur pour l'environnement actuel.</li>
 </ul>
-<h2 id="tableaux-associatifs">Tableaux Associatifs<a class="headerlink" href="#tableaux-associatifs" title="Permanent link">&para;</a></h2>
-<p>Les tableaux associatifs utilisent des clés alphanumériques. Ils doivent être déclarés avec <code>declare -A</code>.</p>
-<h3 id="declaration">Déclaration<a class="headerlink" href="#declaration" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nb">declare</span><span class="w"> </span>-A<span class="w"> </span>mon_assoc
-<span class="nv">mon_assoc</span><span class="o">=([</span>cle1<span class="o">]=</span><span class="s1">&#39;valeur1&#39;</span><span class="w"> </span><span class="o">[</span>cle2<span class="o">]=</span><span class="s1">&#39;valeur2&#39;</span><span class="o">)</span>
+</li>
+<li>
+<p><strong><code>locale-gen</code></strong> : Génère les locales spécifiées dans le fichier <code>/etc/locale.gen</code>.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>locale-gen
 </code></pre></div>
-<h3 id="acces-modification-ajout-et-suppression">Accès, Modification, Ajout, et Suppression<a class="headerlink" href="#acces-modification-ajout-et-suppression" title="Permanent link">&para;</a></h3>
-<p>L'accès, la modification, l'ajout, et la suppression fonctionnent comme pour les tableaux indexés, mais avec des clés alphanumériques.</p>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="si">${</span><span class="nv">mon_assoc</span><span class="p">[cle1]</span><span class="si">}</span><span class="w">  </span><span class="c1"># Accès</span>
-mon_assoc<span class="o">[</span>cle1<span class="o">]=</span><span class="s1">&#39;nouvelle valeur&#39;</span><span class="w">  </span><span class="c1"># Modification</span>
-mon_assoc<span class="o">[</span>cle3<span class="o">]=</span><span class="s1">&#39;valeur3&#39;</span><span class="w">  </span><span class="c1"># Ajout</span>
-<span class="nb">unset</span><span class="w"> </span>mon_assoc<span class="o">[</span>cle2<span class="o">]</span><span class="w">  </span><span class="c1"># Suppression</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Lit <code>/etc/locale.gen</code> pour déterminer quelles locales générer.</li>
+</ul>
+</li>
+<li>
+<p><strong><code>update-locale</code></strong> : Met à jour les variables d'environnement locales.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>update-locale<span class="w"> </span><span class="nv">LANG</span><span class="o">=</span>fr_FR.UTF-8
 </code></pre></div>
-<h3 id="iteration-sur-les-cles-et-les-valeurs">Itération sur les Clés et les Valeurs<a class="headerlink" href="#iteration-sur-les-cles-et-les-valeurs" title="Permanent link">&para;</a></h3>
-<p>Pour itérer sur les clés :</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>cle<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="p">!mon_assoc[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$cle</span><span class="s2">&quot;</span>
-<span class="k">done</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Définit ou modifie les variables locales du système.</li>
+</ul>
+</li>
+<li>
+<p><strong><code>dpkg-reconfigure locales</code></strong> : Reconfigure les paramètres locaux via une interface interactive.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dpkg-reconfigure<span class="w"> </span>locales
 </code></pre></div>
-<p>Pour itérer sur les valeurs :</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>valeur<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">mon_assoc</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$valeur</span><span class="s2">&quot;</span>
-<span class="k">done</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Permet de sélectionner les locales à générer et de définir la locale par défaut.</li>
+</ul>
+</li>
+</ol>
+<h3 id="variables-denvironnement-locales">Variables d'environnement locales<a class="headerlink" href="#variables-denvironnement-locales" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p><strong><code>LANG</code></strong> : Définit la langue et les paramètres régionaux par défaut.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">LANG</span><span class="o">=</span>fr_FR.UTF-8
 </code></pre></div>
-<h2 id="operations-avancees">Opérations Avancées<a class="headerlink" href="#operations-avancees" title="Permanent link">&para;</a></h2>
-<h3 id="sous-ensembles-et-slicing">Sous-ensembles et Slicing<a class="headerlink" href="#sous-ensembles-et-slicing" title="Permanent link">&para;</a></h3>
-<p>Bash ne supporte pas directement le slicing comme dans certains langages de programmation, mais des sous-ensembles peuvent être extraits avec des boucles :</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Pour un tableau indexé</span>
-<span class="k">for</span><span class="w"> </span><span class="o">((</span><span class="w"> </span><span class="nv">i</span><span class="o">=</span><span class="m">0</span><span class="p">;</span><span class="w"> </span>i&lt;<span class="m">3</span><span class="p">;</span><span class="w"> </span>i++<span class="w"> </span><span class="o">))</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">mon_tableau</span><span class="p">[</span><span class="nv">$i</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">done</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Change la langue par défaut pour la session courante.</li>
+</ul>
+</li>
+<li>
+<p><strong><code>LC_ALL</code></strong> : Remplace toutes les autres variables locales.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">LC_ALL</span><span class="o">=</span>en_US.UTF-8
 </code></pre></div>
-<h3 id="recherche-et-filtre">Recherche et Filtre<a class="headerlink" href="#recherche-et-filtre" title="Permanent link">&para;</a></h3>
-<p>La recherche et le filtrage nécessitent généralement des boucles et des instructions conditionnelles :</p>
-<div class="highlight"><pre><span></span><code><span class="k">for</span><span class="w"> </span>val<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">mon_tableau</span><span class="p">[@]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">do</span>
-<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="o">[[</span><span class="w"> </span><span class="nv">$val</span><span class="w"> </span><span class="o">==</span><span class="w"> </span>*<span class="s1">&#39;part&#39;</span>*<span class="w"> </span><span class="o">]]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
-<span class="w">    </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$val</span><span class="s2">&quot;</span>
-<span class="w">  </span><span class="k">fi</span>
-<span class="k">done</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Force tous les paramètres régionaux à utiliser <code>en_US.UTF-8</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong><code>LC_TIME</code>, <code>LC_NUMERIC</code>, <code>LC_MONETARY</code>, etc.</strong> : Variables pour des aspects spécifiques des locales.</p>
+</li>
+<li>
+<p><strong>Usage :</strong></p>
+<div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">LC_TIME</span><span class="o">=</span>de_DE.UTF-8
 </code></pre></div>
-<h3 id="longueur-des-elements">Longueur des Éléments<a class="headerlink" href="#longueur-des-elements" title="Permanent link">&para;</a></h3>
-<p>Pour obtenir la longueur d'un élément spécifique :</p>
-<div class="highlight"><pre><span></span><code><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${#</span><span class="nv">mon_tableau</span><span class="p">[0]</span><span class="si">}</span><span class="s2">&quot;</span><span class="w">  </span><span class="c1"># Longueur du premier élément</span>
+</li>
+<li>
+<p><strong>Explication :</strong></p>
+<ul>
+<li>Utilise le format de date et d'heure allemand pour la session courante.</li>
+</ul>
+</li>
+</ol>
+<h3 id="exemple-dutilisation-dune-option">Exemple d'utilisation d'une option<a class="headerlink" href="#exemple-dutilisation-dune-option" title="Permanent link">&para;</a></h3>
+<h4 id="modifier-temporairement-la-langue-dune-commande">Modifier temporairement la langue d'une commande<a class="headerlink" href="#modifier-temporairement-la-langue-dune-commande" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="nv">LANG</span><span class="o">=</span>C<span class="w"> </span>ls<span class="w"> </span>--help
 </code></pre></div>
+<p><strong>Explication :</strong></p>
+<ul>
+<li><code>LANG=C</code> : Définit la langue à <code>C</code> (anglais par défaut).</li>
+<li><code>ls --help</code> : Affiche l'aide de la commande <code>ls</code>.</li>
+<li>Le résultat sera affiché en anglais, quel que soit le paramètre régional du système.</li>
+</ul>
+<hr />
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Les tableaux en Bash, qu'ils soient indexés ou associatifs, offrent une puissante manière de manipuler des collections de données. Bien que les tableaux en Bash ne soient pas aussi avancés que dans d'autres langages, avec une compréhension solide de leur fonctionnement et des techniques de manipulation, vous pouvez réaliser des scripts efficaces et élégants pour traiter des ensembles de données complexes.</p>
+<p>La gestion des locales sous Linux est essentielle pour personnaliser l'environnement système selon les préférences linguistiques et culturelles de l'utilisateur. En comprenant comment installer et configurer les locales, vous pouvez améliorer l'accessibilité et l'expérience utilisateur de votre système Debian.</p>
+<hr />
 
 
 
@@ -11113,12 +11236,12 @@ mon_assoc<span class="o">[</span>cle3<span class="o">]=</span><span class="s1">&
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.action.view", "navigation.tabs", "navigation.top", "header.autohide", "content.tabs.link", "content.code.copy"], "search": "../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.view", "navigation.tabs", "navigation.top", "header.autohide", "content.tabs.link", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.af256bd8.min.js"></script>
+      <script src="../../assets/javascripts/bundle.af256bd8.min.js"></script>
       
-        <script src="../../../../javascripts/config.js"></script>
+        <script src="../../javascripts/config.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
