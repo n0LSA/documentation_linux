@@ -1,1228 +1,987 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/index.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/index.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/tags.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/tags.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/index.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/index.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/cut.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/cut.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/df.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/df.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/dirname.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/dirname.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/dmesh.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/dmesh.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/du.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/du.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/realpath.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/realpath.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/rm.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/rm.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/sort.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/sort.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tar.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tar.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tr.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tr.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tree.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Gestion_des_Fichiers/tree.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/build-essential.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/build-essential.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/debian_alt_click.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/debian_alt_click.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/debian_ctrl_alt_fleche.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/debian_ctrl_alt_fleche.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/fstab.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/fstab.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/instal_debian.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/instal_debian.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/locale.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/locale.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/mount.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/mount.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/mount_samba.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/mount_samba.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/ntfs-3g.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/ntfs-3g.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/path_scripts.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/path_scripts.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/redirections.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Installation_et_Configuration/redirections.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/chmod.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/chmod.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/chown.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/chown.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/groups.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/groups.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/mask.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/mask.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask-0077.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask-0077.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask_login-profil.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Permissions_et_Droits/umask_login-profil.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/Fail2ban%20-%20log.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/Fail2ban%20-%20log.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/auditctl-gpt.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/auditctl-gpt.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/auditd-gpt.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/auditd-gpt.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/cron.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/cron.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab-guide.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab-guide.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab_delByUser.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/crontab_delByUser.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/dejadup.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/dejadup.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/fail2ban.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/fail2ban.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/getent.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/getent.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/journalctl.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/journalctl.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/nmon.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/nmon.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/ps_aux.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/01_Systeme/Processus_et_Services/ps_aux.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Docker/container_nodejs-npm-tldr.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Docker/container_nodejs-npm-tldr.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Docker/container_powershell.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Docker/container_powershell.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Docker/docker-compose-2.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Docker/docker-compose-2.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Docker/docker-compose.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Docker/docker-compose.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Docker/install.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Docker/install.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/curl.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/curl.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/dnsutils.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/dnsutils.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/hostname.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/hostname.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/hostnamectl.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/hostnamectl.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/netcat.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/netcat.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/nmblookup.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/nmblookup.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/resolution-nom-reseau.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/resolution-nom-reseau.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/rsync.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/rsync.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/scp.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/scp.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/uniq.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/uniq.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/wget.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/wget.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/wsdd.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Outils_Reseau/wsdd.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_actions.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_actions.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_chaines.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_chaines.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_commandes.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_commandes.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_tuto.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/iptables/iptables_tuto.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_commandes.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_commandes.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_options.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_options.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_tuto.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Pare-feu/ufw/ufw_tuto.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/AllowTcpForwarding.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/AllowTcpForwarding.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/SSH-config.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/SSH-config.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/X11Forwarding.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/X11Forwarding.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/linux_client_keygen.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/linux_client_keygen.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/powershell_client_keygen.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/powershell_client_keygen.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/ssh_cl%C3%A9-de-chiffrement.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/ssh_cl%C3%A9-de-chiffrement.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/SSH/journalctl-rpi-debian/log_and_fix.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/SSH/journalctl-rpi-debian/log_and_fix.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Samba/samba.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Samba/samba.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Samba/samba_ports.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Samba/samba_ports.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Samba/samba_user.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Samba/samba_user.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Samba/smb-client.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Samba/smb-client.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/02_Reseau/Samba/smbconf/ex_1.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/02_Reseau/Samba/smbconf/ex_1.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/adduser.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/adduser.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/deluser.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/deluser.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/gpasswd.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/gpasswd.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/groupadd.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/groupadd.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/groupdel.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/groupdel.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/id.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/id.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/passwd.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/passwd.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/su.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/su.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/useradd--r.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/useradd--r.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/useradd.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/useradd-gpt.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/usermod.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/useradd.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/utilisateurs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/usermod.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/markdown_in_terminal.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/03_Gestion_des_Utilisateurs/Utilisateurs_et_Groupes/utilisateurs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/pandoc.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/markdown_in_terminal.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/vscode_commandLine.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/pandoc.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/xclip.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/vscode_commandLine.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/hstr.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Editeurs_et_Gestionnaires_de_Fichiers/xclip.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/raccourcis.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/hstr.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/terminal_raccourci_clavier.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/raccourcis.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/tmux.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/terminal_raccourci_clavier.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/tty_clock.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/tmux.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/zsh_ohmyzsh.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/tty_clock.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/base64.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Terminal_et_Gestion_des_Fenetres/zsh_ohmyzsh.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/bc.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/base64.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find-exec_sh.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/bc.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find-mkdocs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find-exec_sh.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find-mkdocs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/gestionnaire_de_paquets.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/find.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/lsof.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/gestionnaire_de_paquets.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/utils.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/lsof.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/cat.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Utilitaires_Divers/utils.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/grep.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/cat.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/head.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/grep.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/hexdump.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/head.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/less.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/hexdump.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/strings.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/less.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-avantages.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/04_Utilitaires_et_Outils_Divers/Visualisation_de_Fichiers/strings.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-installation-deb.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-avantages.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-installation-snap.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-installation-deb.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-vs-virtualbox.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-installation-snap.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/VirtualBox/virtualbux_dossierPartager.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/Multipass/multipass-vs-virtualbox.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/lamp.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/05_Machines_Virtuelles_et_Conteneurs/VirtualBox/virtualbux_dossierPartager.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/mariadb.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/lamp.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/php.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/mariadb.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/phpmyadmin.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/php.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/07_Navigateurs_Web/lynx.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/06_Serveur_Web/LAMP_Stack/phpmyadmin.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/apt-sources.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/07_Navigateurs_Web/lynx.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/dpkg-reconfiure.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/apt-sources.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/network-manager_install.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/dpkg-reconfiure.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/vite.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/network-manager_install.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/awk%20est%20un%20langage%20de%20programmation%20de.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/01_PROGRAMME/08_Gestionnaires_de_Paquets/vite.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/awk.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/awk%20est%20un%20langage%20de%20programmation%20de.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/complet.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/awk.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/fonctions.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/complet.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/regex.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/fonctions.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/awk/variables.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/regex.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/ifs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/awk/variables.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/let.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/ifs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/read.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/let.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/typeset.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/read.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/BASH_REMATCH.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/typeset.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Commandes%20Int%C3%A9gr%C3%A9es.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/BASH_REMATCH.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Conditions-composite.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Commandes%20Int%C3%A9gr%C3%A9es.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Conditions.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Conditions-composite.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Cr%C3%A9ation-script.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Conditions.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Expansion-de-Param%C3%A8tre.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Cr%C3%A9ation-script.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Expansion-de-Tableau.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Expansion-de-Param%C3%A8tre.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Extension-arithm%C3%A9tique.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Expansion-de-Tableau.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/IFS.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Extension-arithm%C3%A9tique.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Operateurs-Logiques.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/IFS.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Shebang.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Operateurs-Logiques.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Structures-Conditionnelles.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Shebang.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Substitution-de-commandes.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Structures-Conditionnelles.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Tableaux.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Substitution-de-commandes.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/Variables-Speciales.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Tableaux.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/arithmetiques.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/Variables-Speciales.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/chaines.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/arithmetiques.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/chaines_operateurs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/chaines.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/echo.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/chaines_operateurs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/eval.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/echo.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/exit.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/eval.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/fichiers.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/exit.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/local%20-a.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/fichiers.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/read.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/local%20-a.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/retour%20derni%C3%A8re%20commande.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/read.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/set.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/retour%20derni%C3%A8re%20commande.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/source.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/set.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/structure_boucles.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/source.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/tableaux%20associatifs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/structure_boucles.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/unset.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/tableaux%20associatifs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/variables.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/unset.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/variables_environnement.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/variables.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/while%20read%20-r%20-%201.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/variables_environnement.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/while%20read%20-r%20-%202.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/while%20read%20-r%20-%201.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/condition_composite.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/while%20read%20-r%20-%202.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/conditions.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/condition_composite.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/cr%C3%A9ation%20script.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/conditions.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/op%C3%A9rateurs%20logiques.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/cr%C3%A9ation%20script.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/structure_conditionelle.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/op%C3%A9rateurs%20logiques.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/tableaux.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/structure_conditionelle.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/bash-docu/del/variables_special.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/tableaux.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/exercices/arithmetiques.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/bash-docu/del/variables_special.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/exercices/chaines-operateurs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/exercices/arithmetiques.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/exercices/chaines.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/exercices/chaines-operateurs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/02_LANGAGES/bash/exercices/conditions.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/exercices/chaines.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/Les-fichiers.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/02_LANGAGES/bash/exercices/conditions.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/Shell.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/Les-fichiers.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/network/Network.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/Shell.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/ordinateur/IT-IO-Devices.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/network/Network.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/ordinateur/IT-Process.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/ordinateur/IT-IO-Devices.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/ordinateur/bios.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/ordinateur/IT-Process.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Informatique/ordinateur/cpu.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/ordinateur/bios.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/overthewire/overTheWire-bandit4.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Informatique/ordinateur/cpu.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/programmes/Multipass.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/overthewire/overTheWire-bandit4.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/scripting/ascii.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/programmes/Multipass.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/scripting/expression.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/scripting/ascii.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/scripting/tp/TP-Scripting-bash-git.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/scripting/expression.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/scripting/tp/TP-Scripting-bash-texte_1.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/scripting/tp/TP-Scripting-bash-git.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/tuto/install_nodejs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/scripting/tp/TP-Scripting-bash-texte_1.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/tuto/install_rpi_v1-list.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/tuto/install_nodejs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/tuto/install_rpi_v1.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/tuto/install_rpi_v1-list.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/tuto/install_vscode.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/tuto/install_rpi_v1.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/Linux/vps-ovh/debian/installation-debian.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/tuto/install_vscode.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/03_PROJET/emplois/tai/Le-Tai.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/Linux/vps-ovh/debian/installation-debian.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/assurance/devis_direct-assurance.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/03_PROJET/emplois/tai/Le-Tai.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/assurance/devis_matmut.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/assurance/devis_direct-assurance.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/assurance/devis_matmut_direct-assurance.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/assurance/devis_matmut.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/assurance/matmut_vs_direct-assurance.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/assurance/devis_matmut_direct-assurance.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA%20PREP.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/assurance/matmut_vs_direct-assurance.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA-AUTO-post.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA%20PREP.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA-AUTO.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA-AUTO-post.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tai/RNCP37681-EXAM.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/entreprise/GPA%2026/GPA-AUTO.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT-MIXTE.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tai/RNCP37681-EXAM.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT-REF.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT-MIXTE.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT-REF.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tai/Tai-Role.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tai/RNCP37681-GPT.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/04_VIE-PERSO/emplois/tssr/TSSR-RNCP.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tai/Tai-Role.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/expressions-reguliere/interpreteurs.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/04_VIE-PERSO/emplois/tssr/TSSR-RNCP.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/general/Chemin-absolue-cannonique.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/expressions-reguliere/interpreteurs.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/general/Chemins-absolus.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/general/Chemin-absolue-cannonique.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/general/Inodes.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/general/Chemins-absolus.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/general/Metadata.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/general/Inodes.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/network/Network-Protocol.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/general/Metadata.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/network/Network-Protocol_Physique.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/network/Network-Protocol.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/network/Network-Protocol_Ranges.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/network/Network-Protocol_Physique.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/network/Network-Protocol_TCP-IP.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/network/Network-Protocol_Ranges.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/network/Network.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/network/Network-Protocol_TCP-IP.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/boot-devices.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/network/Network.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/boot-sequence.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/boot-devices.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/clear-cmos.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/boot-sequence.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/cmos.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/clear-cmos.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/firmware.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/cmos.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/partiotion-tables.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/firmware.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/bios/volatile-memory.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/partiotion-tables.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/it-process/IT-Process-Layers.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/bios/volatile-memory.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/ordinateur/it-process/IT-Process-Model.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/it-process/IT-Process-Layers.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/differrences.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/ordinateur/it-process/IT-Process-Model.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/emulateur-terminal.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/differrences.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/interpreteur-de-commande.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/emulateur-terminal.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/prompt.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/interpreteur-de-commande.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/shell.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/prompt.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
     <url>
-         <loc>https://n0LSA.github.io/documentations_linux/05_INFORMATIQUE/shell-terminal/terminaux-physique.html</loc>
-         <lastmod>2024-10-27</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/shell.html</loc>
+         <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+         <loc>https://n0LSA.github.io/documentation_linux/05_INFORMATIQUE/shell-terminal/terminaux-physique.html</loc>
+         <lastmod>2024-10-28</lastmod>
     </url>
 </urlset>
